@@ -1,0 +1,79 @@
+{
+  "schema": 1,
+  "title": "Original Quiet Night / Veiled Night",
+  "author": "Hermes/SJC, user-directed original procedural artwork",
+  "license": "MIT",
+  "input_images": [],
+  "source": "scripts/generate_starfield.py",
+  "source_sha256": "159e24d200e27dfd4a47d7b15ee3243fcaf5f08359aefd3e567d0afe542f8431",
+  "dependencies": {
+    "numpy": "2.4.6",
+    "pillow": "12.3.0"
+  },
+  "claim": "Synthetic illustration only; no photographic or reference-match claim",
+  "variants": [
+    {
+      "variant": "A",
+      "parameters": {
+        "seed": 2026101301,
+        "stars": 7600,
+        "haze": 0.85,
+        "brightness": 0.87
+      },
+      "dimensions": [
+        2560,
+        1440
+      ],
+      "files": {
+        "starry-night-A.png": "d32c90580c0f2aa7caa85eb38b6c34f336acefc5ddb750999e7e020e9b72b6db",
+        "starry-night-A.webp": "38a1ce0af93395b411edce09584298a382ec8656cb5a31d32cafe9863ee1c7c2"
+      },
+      "rgb_mean": [
+        5.355346137152778,
+        9.805613606770834,
+        19.39559109157986
+      ]
+    },
+    {
+      "variant": "B",
+      "parameters": {
+        "seed": 2026101302,
+        "stars": 10200,
+        "haze": 1.55,
+        "brightness": 0.98
+      },
+      "dimensions": [
+        2560,
+        1440
+      ],
+      "files": {
+        "starry-night-B.png": "253f1b6220e8dcabaff8fc1dde115193381e93e654c78a57edfbd4b94aa93992",
+        "starry-night-B.webp": "3d58da98836855338180a48262472ed207317241c0c3370a1721a09709b31a4c"
+      },
+      "rgb_mean": [
+        5.783733181423611,
+        10.339968532986111,
+        20.291717122395834
+      ]
+    }
+  ],
+  "approved_final": {
+    "file": "artwork/user-approved-starry-brighter.jpg",
+    "sha256": "ea165e4101580ea5025e50ce3c5d577022b02bd5b4c69240a5350069c270ef11",
+    "dimensions": [
+      1920,
+      1080
+    ],
+    "source_variant": "B",
+    "processing_script": "scripts/brighten_stars_preview.py",
+    "processing_script_sha256": "ebdbd5a73b7dcc62a2844a7b0c7c0fb04ad71b389d401084a913c86b58c230b5",
+    "gamma": 0.52,
+    "color": 1.12,
+    "jpeg_quality": 96,
+    "subsampling": 0,
+    "runtime_asset": "public/images/default-background-v2.webp",
+    "runtime_sha256": "e158d9a52526cf28664cbb4b2b2dd665212402d94f88cb5995a8bf0330fea561",
+    "decoded_RGB_lossless_verified": true,
+    "user_approval": "User-approved final B-derived brightness correction; exact approved bytes preserved"
+  }
+}

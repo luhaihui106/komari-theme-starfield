@@ -1,0 +1,28 @@
+[
+  {
+    "name": "carbon-apache",
+    "url": "https://raw.githubusercontent.com/carbon-design-system/carbon/v11.88.0/LICENSE",
+    "sha256": "037b3e9eaff51477b270e9082f54b99175e4dd893548654f00995045b68294b8"
+  },
+  {
+    "name": "iconpark-apache",
+    "url": "https://raw.githubusercontent.com/bytedance/IconPark/8dc132da4c85671ba6a5962c87aa2bdafbf158e9/LICENSE",
+    "sha256": "81268f00802b1a9cffae4df43f78c3a0809845e03fef3da68f26ad2e4c49681e",
+    "note": "Pinned license snapshot; collection version 1.4.2 supplied by Iconify metadata, not inferred tag"
+  },
+  {
+    "name": "tabler-mit",
+    "url": "https://raw.githubusercontent.com/tabler/tabler-icons/v3.46.0/LICENSE",
+    "sha256": "b740a1d46122672da62833e97f7e7c8a13fa85cbc7445b584b297cc00dde93db"
+  },
+  {
+    "name": "simple-icons-cc0",
+    "url": "https://raw.githubusercontent.com/simple-icons/simple-icons/16.31.0/LICENSE.md",
+    "sha256": "9046848b63a5c92bff14e4accca80bd987e0623b74adf9226ce5198d312b79d5"
+  },
+  {
+    "name": "lucide-isc",
+    "url": "https://raw.githubusercontent.com/lucide-icons/lucide/440a1e1dfb1e712505308da46bead3c28b1f1398/LICENSE",
+    "sha256": "b495047bd93a9b06913511076f504daba17d5bbeb3e0650f3bb53a4220329c57"
+  }
+]

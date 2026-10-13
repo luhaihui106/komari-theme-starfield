@@ -1,0 +1,5 @@
+{
+  "schema": 1,
+  "scope": "current candidate only; recipes and evidence in CANDIDATE_NOTICES.md, NASA_TEXTURE.md, candidate-transitions.json",
+  "groups": ["src/assets/icons.generated.json", "public/images/flags/*.svg", "public/assets/earth/country-boundaries-v1.json", "Blue Marble JPG/WebP", "OS/vendor logos", "Night/topology/water maps", "public/favicon.ico", "Default background", "Documentation images"]
+}

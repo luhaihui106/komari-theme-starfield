@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+<defs>
+<radialGradient id="ocean" cx="32%" cy="26%" r="78%"><stop stop-color="#58b1e4"/><stop offset=".36" stop-color="#277db7"/><stop offset=".72" stop-color="#104475"/><stop offset="1" stop-color="#06172e"/></radialGradient>
+<linearGradient id="land" x1="0" y1="0" x2=".65" y2="1"><stop stop-color="#a8d3b0"/><stop offset=".5" stop-color="#69a596"/><stop offset="1" stop-color="#387c80"/></linearGradient>
+<linearGradient id="shadow"><stop stop-color="#020a1b" stop-opacity=".12"/><stop offset=".25" stop-color="#020a1b" stop-opacity=".7"/><stop offset="1" stop-color="#020a1b" stop-opacity=".96"/></linearGradient>
+<radialGradient id="shine" cx="30%" cy="22%" r="66%"><stop stop-color="#c4ecff" stop-opacity=".25"/><stop offset="1" stop-color="#c4ecff" stop-opacity="0"/></radialGradient>
+<clipPath id="sphere"><circle cx="128" cy="128" r="98"/></clipPath>
+<filter id="halo" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="4"/></filter>
+</defs>
+<rect x="4" y="4" width="248" height="248" rx="60" fill="#071528"/>
+<circle cx="128" cy="129" r="101" fill="none" stroke="#3b92c0" stroke-width="3" opacity=".24" filter="url(#halo)"/>
+<circle cx="128" cy="128" r="98" fill="url(#ocean)"/>
+<g clip-path="url(#sphere)">
+<g fill="url(#land)">
+<path d="M31 67C41 51 52 41 69 35L90 34 106 41 124 39Q131 42 127 50L113 59 116 69 104 77 99 91 87 95 79 109 69 108Q60 100 58 91L46 89 48 78Z"/>
+<path d="M97 43Q117 27 136 34L146 45 139 58 127 62 121 51Z"/>
+<path d="M81 100Q94 92 105 99L110 110 123 114 123 123 112 127 107 136 96 132 94 120 84 116Z"/>
+<path d="M108 129Q120 130 128 140L136 146 134 153 122 151 119 144Z"/>
+<path d="M134 149Q150 145 162 154L176 158Q185 167 178 180L166 191 162 210Q156 225 146 231L140 214 143 201 137 190 139 176 129 163Z"/>
+<path d="M154 31Q169 20 184 29L190 41 180 56 165 65 158 53Z"/>
+</g>
+<path d="M46 49Q65 30 91 34L105 42 91 47 80 42 67 49 54 55Z" fill="#e3f3ef" opacity=".82"/>
+<path d="M156 31Q170 24 183 29L186 39 173 47 162 48Z" fill="#d9efef" opacity=".88"/>
+<g transform="rotate(-23 128 128)"><path d="M139 29C175 58 177 194 139 227L244 241V15Z" fill="url(#shadow)"/><path d="M139 29C175 58 177 194 139 227" fill="none" stroke="#9dd5ec" stroke-width="1" opacity=".32"/></g>
+<circle cx="128" cy="128" r="98" fill="url(#shine)"/>
+</g>
+<circle cx="128" cy="128" r="98" stroke="#a8dcf3" stroke-width="1.1" fill="none" opacity=".42"/>
+<path d="M70 103Q121 60 185 69" stroke="#7ae0d4" stroke-width="2" stroke-linecap="round" fill="none" opacity=".65"/>
+<circle cx="70" cy="103" r="8" fill="#55f3c1" opacity=".48" filter="url(#halo)"/>
+<circle cx="70" cy="103" r="3.5" fill="#baffea"/>
+<circle cx="185" cy="69" r="2.5" fill="#a2eae9" opacity=".8"/>
+</svg>

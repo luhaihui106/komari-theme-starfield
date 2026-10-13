@@ -1,0 +1,1949 @@
+[
+  {
+    "code": "FJ",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Fiji",
+      "ISO_A2": "FJ",
+      "ISO_A2_EH": "FJ",
+      "POSTAL": "FJ",
+      "ADM0_A3": "FJI"
+    }
+  },
+  {
+    "code": "TZ",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "United Republic of Tanzania",
+      "ISO_A2": "TZ",
+      "ISO_A2_EH": "TZ",
+      "POSTAL": "TZ",
+      "ADM0_A3": "TZA"
+    }
+  },
+  {
+    "code": "EH",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Western Sahara",
+      "ISO_A2": "EH",
+      "ISO_A2_EH": "EH",
+      "POSTAL": "WS",
+      "ADM0_A3": "SAH"
+    }
+  },
+  {
+    "code": "CA",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Canada",
+      "ISO_A2": "CA",
+      "ISO_A2_EH": "CA",
+      "POSTAL": "CA",
+      "ADM0_A3": "CAN"
+    }
+  },
+  {
+    "code": "US",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "United States of America",
+      "ISO_A2": "US",
+      "ISO_A2_EH": "US",
+      "POSTAL": "US",
+      "ADM0_A3": "USA"
+    }
+  },
+  {
+    "code": "KZ",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Kazakhstan",
+      "ISO_A2": "KZ",
+      "ISO_A2_EH": "KZ",
+      "POSTAL": "KZ",
+      "ADM0_A3": "KAZ"
+    }
+  },
+  {
+    "code": "UZ",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Uzbekistan",
+      "ISO_A2": "UZ",
+      "ISO_A2_EH": "UZ",
+      "POSTAL": "UZ",
+      "ADM0_A3": "UZB"
+    }
+  },
+  {
+    "code": "PG",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Papua New Guinea",
+      "ISO_A2": "PG",
+      "ISO_A2_EH": "PG",
+      "POSTAL": "PG",
+      "ADM0_A3": "PNG"
+    }
+  },
+  {
+    "code": "ID",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Indonesia",
+      "ISO_A2": "ID",
+      "ISO_A2_EH": "ID",
+      "POSTAL": "INDO",
+      "ADM0_A3": "IDN"
+    }
+  },
+  {
+    "code": "AR",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Argentina",
+      "ISO_A2": "AR",
+      "ISO_A2_EH": "AR",
+      "POSTAL": "AR",
+      "ADM0_A3": "ARG"
+    }
+  },
+  {
+    "code": "CL",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Chile",
+      "ISO_A2": "CL",
+      "ISO_A2_EH": "CL",
+      "POSTAL": "CL",
+      "ADM0_A3": "CHL"
+    }
+  },
+  {
+    "code": "CD",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Democratic Republic of the Congo",
+      "ISO_A2": "CD",
+      "ISO_A2_EH": "CD",
+      "POSTAL": "DRC",
+      "ADM0_A3": "COD"
+    }
+  },
+  {
+    "code": "SO",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Somalia",
+      "ISO_A2": "SO",
+      "ISO_A2_EH": "SO",
+      "POSTAL": "SO",
+      "ADM0_A3": "SOM"
+    }
+  },
+  {
+    "code": "KE",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Kenya",
+      "ISO_A2": "KE",
+      "ISO_A2_EH": "KE",
+      "POSTAL": "KE",
+      "ADM0_A3": "KEN"
+    }
+  },
+  {
+    "code": "SD",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Sudan",
+      "ISO_A2": "SD",
+      "ISO_A2_EH": "SD",
+      "POSTAL": "SD",
+      "ADM0_A3": "SDN"
+    }
+  },
+  {
+    "code": "TD",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Chad",
+      "ISO_A2": "TD",
+      "ISO_A2_EH": "TD",
+      "POSTAL": "TD",
+      "ADM0_A3": "TCD"
+    }
+  },
+  {
+    "code": "HT",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Haiti",
+      "ISO_A2": "HT",
+      "ISO_A2_EH": "HT",
+      "POSTAL": "HT",
+      "ADM0_A3": "HTI"
+    }
+  },
+  {
+    "code": "DO",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Dominican Republic",
+      "ISO_A2": "DO",
+      "ISO_A2_EH": "DO",
+      "POSTAL": "DO",
+      "ADM0_A3": "DOM"
+    }
+  },
+  {
+    "code": "RU",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Russia",
+      "ISO_A2": "RU",
+      "ISO_A2_EH": "RU",
+      "POSTAL": "RUS",
+      "ADM0_A3": "RUS"
+    }
+  },
+  {
+    "code": "BS",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "The Bahamas",
+      "ISO_A2": "BS",
+      "ISO_A2_EH": "BS",
+      "POSTAL": "BS",
+      "ADM0_A3": "BHS"
+    }
+  },
+  {
+    "code": "FK",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Falkland Islands",
+      "ISO_A2": "FK",
+      "ISO_A2_EH": "FK",
+      "POSTAL": "FK",
+      "ADM0_A3": "FLK"
+    }
+  },
+  {
+    "code": "NO",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Norway",
+      "ISO_A2": "-99",
+      "ISO_A2_EH": "NO",
+      "POSTAL": "N",
+      "ADM0_A3": "NOR"
+    }
+  },
+  {
+    "code": "GL",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Greenland",
+      "ISO_A2": "GL",
+      "ISO_A2_EH": "GL",
+      "POSTAL": "GL",
+      "ADM0_A3": "GRL"
+    }
+  },
+  {
+    "code": "TF",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "French Southern and Antarctic Lands",
+      "ISO_A2": "TF",
+      "ISO_A2_EH": "TF",
+      "POSTAL": "TF",
+      "ADM0_A3": "ATF"
+    }
+  },
+  {
+    "code": "TL",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "East Timor",
+      "ISO_A2": "TL",
+      "ISO_A2_EH": "TL",
+      "POSTAL": "TL",
+      "ADM0_A3": "TLS"
+    }
+  },
+  {
+    "code": "ZA",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "South Africa",
+      "ISO_A2": "ZA",
+      "ISO_A2_EH": "ZA",
+      "POSTAL": "ZA",
+      "ADM0_A3": "ZAF"
+    }
+  },
+  {
+    "code": "LS",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Lesotho",
+      "ISO_A2": "LS",
+      "ISO_A2_EH": "LS",
+      "POSTAL": "LS",
+      "ADM0_A3": "LSO"
+    }
+  },
+  {
+    "code": "MX",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Mexico",
+      "ISO_A2": "MX",
+      "ISO_A2_EH": "MX",
+      "POSTAL": "MX",
+      "ADM0_A3": "MEX"
+    }
+  },
+  {
+    "code": "UY",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Uruguay",
+      "ISO_A2": "UY",
+      "ISO_A2_EH": "UY",
+      "POSTAL": "UY",
+      "ADM0_A3": "URY"
+    }
+  },
+  {
+    "code": "BR",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Brazil",
+      "ISO_A2": "BR",
+      "ISO_A2_EH": "BR",
+      "POSTAL": "BR",
+      "ADM0_A3": "BRA"
+    }
+  },
+  {
+    "code": "BO",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Bolivia",
+      "ISO_A2": "BO",
+      "ISO_A2_EH": "BO",
+      "POSTAL": "BO",
+      "ADM0_A3": "BOL"
+    }
+  },
+  {
+    "code": "PE",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Peru",
+      "ISO_A2": "PE",
+      "ISO_A2_EH": "PE",
+      "POSTAL": "PE",
+      "ADM0_A3": "PER"
+    }
+  },
+  {
+    "code": "CO",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Colombia",
+      "ISO_A2": "CO",
+      "ISO_A2_EH": "CO",
+      "POSTAL": "CO",
+      "ADM0_A3": "COL"
+    }
+  },
+  {
+    "code": "PA",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Panama",
+      "ISO_A2": "PA",
+      "ISO_A2_EH": "PA",
+      "POSTAL": "PA",
+      "ADM0_A3": "PAN"
+    }
+  },
+  {
+    "code": "CR",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Costa Rica",
+      "ISO_A2": "CR",
+      "ISO_A2_EH": "CR",
+      "POSTAL": "CR",
+      "ADM0_A3": "CRI"
+    }
+  },
+  {
+    "code": "NI",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Nicaragua",
+      "ISO_A2": "NI",
+      "ISO_A2_EH": "NI",
+      "POSTAL": "NI",
+      "ADM0_A3": "NIC"
+    }
+  },
+  {
+    "code": "HN",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Honduras",
+      "ISO_A2": "HN",
+      "ISO_A2_EH": "HN",
+      "POSTAL": "HN",
+      "ADM0_A3": "HND"
+    }
+  },
+  {
+    "code": "SV",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "El Salvador",
+      "ISO_A2": "SV",
+      "ISO_A2_EH": "SV",
+      "POSTAL": "SV",
+      "ADM0_A3": "SLV"
+    }
+  },
+  {
+    "code": "GT",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Guatemala",
+      "ISO_A2": "GT",
+      "ISO_A2_EH": "GT",
+      "POSTAL": "GT",
+      "ADM0_A3": "GTM"
+    }
+  },
+  {
+    "code": "BZ",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Belize",
+      "ISO_A2": "BZ",
+      "ISO_A2_EH": "BZ",
+      "POSTAL": "BZ",
+      "ADM0_A3": "BLZ"
+    }
+  },
+  {
+    "code": "VE",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Venezuela",
+      "ISO_A2": "VE",
+      "ISO_A2_EH": "VE",
+      "POSTAL": "VE",
+      "ADM0_A3": "VEN"
+    }
+  },
+  {
+    "code": "GY",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Guyana",
+      "ISO_A2": "GY",
+      "ISO_A2_EH": "GY",
+      "POSTAL": "GY",
+      "ADM0_A3": "GUY"
+    }
+  },
+  {
+    "code": "SR",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Suriname",
+      "ISO_A2": "SR",
+      "ISO_A2_EH": "SR",
+      "POSTAL": "SR",
+      "ADM0_A3": "SUR"
+    }
+  },
+  {
+    "code": "FR",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "France",
+      "ISO_A2": "-99",
+      "ISO_A2_EH": "FR",
+      "POSTAL": "F",
+      "ADM0_A3": "FRA"
+    }
+  },
+  {
+    "code": "EC",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Ecuador",
+      "ISO_A2": "EC",
+      "ISO_A2_EH": "EC",
+      "POSTAL": "EC",
+      "ADM0_A3": "ECU"
+    }
+  },
+  {
+    "code": "PR",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Puerto Rico",
+      "ISO_A2": "PR",
+      "ISO_A2_EH": "PR",
+      "POSTAL": "PR",
+      "ADM0_A3": "PRI"
+    }
+  },
+  {
+    "code": "JM",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Jamaica",
+      "ISO_A2": "JM",
+      "ISO_A2_EH": "JM",
+      "POSTAL": "J",
+      "ADM0_A3": "JAM"
+    }
+  },
+  {
+    "code": "CU",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Cuba",
+      "ISO_A2": "CU",
+      "ISO_A2_EH": "CU",
+      "POSTAL": "CU",
+      "ADM0_A3": "CUB"
+    }
+  },
+  {
+    "code": "ZW",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Zimbabwe",
+      "ISO_A2": "ZW",
+      "ISO_A2_EH": "ZW",
+      "POSTAL": "ZW",
+      "ADM0_A3": "ZWE"
+    }
+  },
+  {
+    "code": "BW",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Botswana",
+      "ISO_A2": "BW",
+      "ISO_A2_EH": "BW",
+      "POSTAL": "BW",
+      "ADM0_A3": "BWA"
+    }
+  },
+  {
+    "code": "NA",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Namibia",
+      "ISO_A2": "NA",
+      "ISO_A2_EH": "NA",
+      "POSTAL": "NA",
+      "ADM0_A3": "NAM"
+    }
+  },
+  {
+    "code": "SN",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Senegal",
+      "ISO_A2": "SN",
+      "ISO_A2_EH": "SN",
+      "POSTAL": "SN",
+      "ADM0_A3": "SEN"
+    }
+  },
+  {
+    "code": "ML",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Mali",
+      "ISO_A2": "ML",
+      "ISO_A2_EH": "ML",
+      "POSTAL": "ML",
+      "ADM0_A3": "MLI"
+    }
+  },
+  {
+    "code": "MR",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Mauritania",
+      "ISO_A2": "MR",
+      "ISO_A2_EH": "MR",
+      "POSTAL": "MR",
+      "ADM0_A3": "MRT"
+    }
+  },
+  {
+    "code": "BJ",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Benin",
+      "ISO_A2": "BJ",
+      "ISO_A2_EH": "BJ",
+      "POSTAL": "BJ",
+      "ADM0_A3": "BEN"
+    }
+  },
+  {
+    "code": "NE",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Niger",
+      "ISO_A2": "NE",
+      "ISO_A2_EH": "NE",
+      "POSTAL": "NE",
+      "ADM0_A3": "NER"
+    }
+  },
+  {
+    "code": "NG",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Nigeria",
+      "ISO_A2": "NG",
+      "ISO_A2_EH": "NG",
+      "POSTAL": "NG",
+      "ADM0_A3": "NGA"
+    }
+  },
+  {
+    "code": "CM",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Cameroon",
+      "ISO_A2": "CM",
+      "ISO_A2_EH": "CM",
+      "POSTAL": "CM",
+      "ADM0_A3": "CMR"
+    }
+  },
+  {
+    "code": "TG",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Togo",
+      "ISO_A2": "TG",
+      "ISO_A2_EH": "TG",
+      "POSTAL": "TG",
+      "ADM0_A3": "TGO"
+    }
+  },
+  {
+    "code": "GH",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Ghana",
+      "ISO_A2": "GH",
+      "ISO_A2_EH": "GH",
+      "POSTAL": "GH",
+      "ADM0_A3": "GHA"
+    }
+  },
+  {
+    "code": "CI",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Ivory Coast",
+      "ISO_A2": "CI",
+      "ISO_A2_EH": "CI",
+      "POSTAL": "CI",
+      "ADM0_A3": "CIV"
+    }
+  },
+  {
+    "code": "GN",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Guinea",
+      "ISO_A2": "GN",
+      "ISO_A2_EH": "GN",
+      "POSTAL": "GN",
+      "ADM0_A3": "GIN"
+    }
+  },
+  {
+    "code": "GW",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Guinea-Bissau",
+      "ISO_A2": "GW",
+      "ISO_A2_EH": "GW",
+      "POSTAL": "GW",
+      "ADM0_A3": "GNB"
+    }
+  },
+  {
+    "code": "LR",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Liberia",
+      "ISO_A2": "LR",
+      "ISO_A2_EH": "LR",
+      "POSTAL": "LR",
+      "ADM0_A3": "LBR"
+    }
+  },
+  {
+    "code": "SL",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Sierra Leone",
+      "ISO_A2": "SL",
+      "ISO_A2_EH": "SL",
+      "POSTAL": "SL",
+      "ADM0_A3": "SLE"
+    }
+  },
+  {
+    "code": "BF",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Burkina Faso",
+      "ISO_A2": "BF",
+      "ISO_A2_EH": "BF",
+      "POSTAL": "BF",
+      "ADM0_A3": "BFA"
+    }
+  },
+  {
+    "code": "CF",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Central African Republic",
+      "ISO_A2": "CF",
+      "ISO_A2_EH": "CF",
+      "POSTAL": "CF",
+      "ADM0_A3": "CAF"
+    }
+  },
+  {
+    "code": "CG",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Republic of the Congo",
+      "ISO_A2": "CG",
+      "ISO_A2_EH": "CG",
+      "POSTAL": "CG",
+      "ADM0_A3": "COG"
+    }
+  },
+  {
+    "code": "GA",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Gabon",
+      "ISO_A2": "GA",
+      "ISO_A2_EH": "GA",
+      "POSTAL": "GA",
+      "ADM0_A3": "GAB"
+    }
+  },
+  {
+    "code": "GQ",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Equatorial Guinea",
+      "ISO_A2": "GQ",
+      "ISO_A2_EH": "GQ",
+      "POSTAL": "GQ",
+      "ADM0_A3": "GNQ"
+    }
+  },
+  {
+    "code": "ZM",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Zambia",
+      "ISO_A2": "ZM",
+      "ISO_A2_EH": "ZM",
+      "POSTAL": "ZM",
+      "ADM0_A3": "ZMB"
+    }
+  },
+  {
+    "code": "MW",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Malawi",
+      "ISO_A2": "MW",
+      "ISO_A2_EH": "MW",
+      "POSTAL": "MW",
+      "ADM0_A3": "MWI"
+    }
+  },
+  {
+    "code": "MZ",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Mozambique",
+      "ISO_A2": "MZ",
+      "ISO_A2_EH": "MZ",
+      "POSTAL": "MZ",
+      "ADM0_A3": "MOZ"
+    }
+  },
+  {
+    "code": "SZ",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "eSwatini",
+      "ISO_A2": "SZ",
+      "ISO_A2_EH": "SZ",
+      "POSTAL": "ES",
+      "ADM0_A3": "SWZ"
+    }
+  },
+  {
+    "code": "AO",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Angola",
+      "ISO_A2": "AO",
+      "ISO_A2_EH": "AO",
+      "POSTAL": "AO",
+      "ADM0_A3": "AGO"
+    }
+  },
+  {
+    "code": "BI",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Burundi",
+      "ISO_A2": "BI",
+      "ISO_A2_EH": "BI",
+      "POSTAL": "BI",
+      "ADM0_A3": "BDI"
+    }
+  },
+  {
+    "code": "IL",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Israel",
+      "ISO_A2": "IL",
+      "ISO_A2_EH": "IL",
+      "POSTAL": "IS",
+      "ADM0_A3": "ISR"
+    }
+  },
+  {
+    "code": "LB",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Lebanon",
+      "ISO_A2": "LB",
+      "ISO_A2_EH": "LB",
+      "POSTAL": "LB",
+      "ADM0_A3": "LBN"
+    }
+  },
+  {
+    "code": "MG",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Madagascar",
+      "ISO_A2": "MG",
+      "ISO_A2_EH": "MG",
+      "POSTAL": "MG",
+      "ADM0_A3": "MDG"
+    }
+  },
+  {
+    "code": "PS",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Palestine",
+      "ISO_A2": "PS",
+      "ISO_A2_EH": "PS",
+      "POSTAL": "PAL",
+      "ADM0_A3": "PSX"
+    }
+  },
+  {
+    "code": "GM",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Gambia",
+      "ISO_A2": "GM",
+      "ISO_A2_EH": "GM",
+      "POSTAL": "GM",
+      "ADM0_A3": "GMB"
+    }
+  },
+  {
+    "code": "TN",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Tunisia",
+      "ISO_A2": "TN",
+      "ISO_A2_EH": "TN",
+      "POSTAL": "TN",
+      "ADM0_A3": "TUN"
+    }
+  },
+  {
+    "code": "DZ",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Algeria",
+      "ISO_A2": "DZ",
+      "ISO_A2_EH": "DZ",
+      "POSTAL": "DZ",
+      "ADM0_A3": "DZA"
+    }
+  },
+  {
+    "code": "JO",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Jordan",
+      "ISO_A2": "JO",
+      "ISO_A2_EH": "JO",
+      "POSTAL": "J",
+      "ADM0_A3": "JOR"
+    }
+  },
+  {
+    "code": "AE",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "United Arab Emirates",
+      "ISO_A2": "AE",
+      "ISO_A2_EH": "AE",
+      "POSTAL": "AE",
+      "ADM0_A3": "ARE"
+    }
+  },
+  {
+    "code": "QA",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Qatar",
+      "ISO_A2": "QA",
+      "ISO_A2_EH": "QA",
+      "POSTAL": "QA",
+      "ADM0_A3": "QAT"
+    }
+  },
+  {
+    "code": "KW",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Kuwait",
+      "ISO_A2": "KW",
+      "ISO_A2_EH": "KW",
+      "POSTAL": "KW",
+      "ADM0_A3": "KWT"
+    }
+  },
+  {
+    "code": "IQ",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Iraq",
+      "ISO_A2": "IQ",
+      "ISO_A2_EH": "IQ",
+      "POSTAL": "IRQ",
+      "ADM0_A3": "IRQ"
+    }
+  },
+  {
+    "code": "OM",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Oman",
+      "ISO_A2": "OM",
+      "ISO_A2_EH": "OM",
+      "POSTAL": "OM",
+      "ADM0_A3": "OMN"
+    }
+  },
+  {
+    "code": "VU",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Vanuatu",
+      "ISO_A2": "VU",
+      "ISO_A2_EH": "VU",
+      "POSTAL": "VU",
+      "ADM0_A3": "VUT"
+    }
+  },
+  {
+    "code": "KH",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Cambodia",
+      "ISO_A2": "KH",
+      "ISO_A2_EH": "KH",
+      "POSTAL": "KH",
+      "ADM0_A3": "KHM"
+    }
+  },
+  {
+    "code": "TH",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Thailand",
+      "ISO_A2": "TH",
+      "ISO_A2_EH": "TH",
+      "POSTAL": "TH",
+      "ADM0_A3": "THA"
+    }
+  },
+  {
+    "code": "LA",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Laos",
+      "ISO_A2": "LA",
+      "ISO_A2_EH": "LA",
+      "POSTAL": "LA",
+      "ADM0_A3": "LAO"
+    }
+  },
+  {
+    "code": "MM",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Myanmar",
+      "ISO_A2": "MM",
+      "ISO_A2_EH": "MM",
+      "POSTAL": "MM",
+      "ADM0_A3": "MMR"
+    }
+  },
+  {
+    "code": "VN",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Vietnam",
+      "ISO_A2": "VN",
+      "ISO_A2_EH": "VN",
+      "POSTAL": "VN",
+      "ADM0_A3": "VNM"
+    }
+  },
+  {
+    "code": "KP",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "North Korea",
+      "ISO_A2": "KP",
+      "ISO_A2_EH": "KP",
+      "POSTAL": "KP",
+      "ADM0_A3": "PRK"
+    }
+  },
+  {
+    "code": "KR",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "South Korea",
+      "ISO_A2": "KR",
+      "ISO_A2_EH": "KR",
+      "POSTAL": "KR",
+      "ADM0_A3": "KOR"
+    }
+  },
+  {
+    "code": "MN",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Mongolia",
+      "ISO_A2": "MN",
+      "ISO_A2_EH": "MN",
+      "POSTAL": "MN",
+      "ADM0_A3": "MNG"
+    }
+  },
+  {
+    "code": "IN",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "India",
+      "ISO_A2": "IN",
+      "ISO_A2_EH": "IN",
+      "POSTAL": "IND",
+      "ADM0_A3": "IND"
+    }
+  },
+  {
+    "code": "BD",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Bangladesh",
+      "ISO_A2": "BD",
+      "ISO_A2_EH": "BD",
+      "POSTAL": "BD",
+      "ADM0_A3": "BGD"
+    }
+  },
+  {
+    "code": "BT",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Bhutan",
+      "ISO_A2": "BT",
+      "ISO_A2_EH": "BT",
+      "POSTAL": "BT",
+      "ADM0_A3": "BTN"
+    }
+  },
+  {
+    "code": "NP",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Nepal",
+      "ISO_A2": "NP",
+      "ISO_A2_EH": "NP",
+      "POSTAL": "NP",
+      "ADM0_A3": "NPL"
+    }
+  },
+  {
+    "code": "PK",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Pakistan",
+      "ISO_A2": "PK",
+      "ISO_A2_EH": "PK",
+      "POSTAL": "PK",
+      "ADM0_A3": "PAK"
+    }
+  },
+  {
+    "code": "AF",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Afghanistan",
+      "ISO_A2": "AF",
+      "ISO_A2_EH": "AF",
+      "POSTAL": "AF",
+      "ADM0_A3": "AFG"
+    }
+  },
+  {
+    "code": "TJ",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Tajikistan",
+      "ISO_A2": "TJ",
+      "ISO_A2_EH": "TJ",
+      "POSTAL": "TJ",
+      "ADM0_A3": "TJK"
+    }
+  },
+  {
+    "code": "KG",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Kyrgyzstan",
+      "ISO_A2": "KG",
+      "ISO_A2_EH": "KG",
+      "POSTAL": "KG",
+      "ADM0_A3": "KGZ"
+    }
+  },
+  {
+    "code": "TM",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Turkmenistan",
+      "ISO_A2": "TM",
+      "ISO_A2_EH": "TM",
+      "POSTAL": "TM",
+      "ADM0_A3": "TKM"
+    }
+  },
+  {
+    "code": "IR",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Iran",
+      "ISO_A2": "IR",
+      "ISO_A2_EH": "IR",
+      "POSTAL": "IRN",
+      "ADM0_A3": "IRN"
+    }
+  },
+  {
+    "code": "SY",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Syria",
+      "ISO_A2": "SY",
+      "ISO_A2_EH": "SY",
+      "POSTAL": "SYR",
+      "ADM0_A3": "SYR"
+    }
+  },
+  {
+    "code": "AM",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Armenia",
+      "ISO_A2": "AM",
+      "ISO_A2_EH": "AM",
+      "POSTAL": "ARM",
+      "ADM0_A3": "ARM"
+    }
+  },
+  {
+    "code": "SE",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Sweden",
+      "ISO_A2": "SE",
+      "ISO_A2_EH": "SE",
+      "POSTAL": "S",
+      "ADM0_A3": "SWE"
+    }
+  },
+  {
+    "code": "BY",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Belarus",
+      "ISO_A2": "BY",
+      "ISO_A2_EH": "BY",
+      "POSTAL": "BY",
+      "ADM0_A3": "BLR"
+    }
+  },
+  {
+    "code": "UA",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Ukraine",
+      "ISO_A2": "UA",
+      "ISO_A2_EH": "UA",
+      "POSTAL": "UA",
+      "ADM0_A3": "UKR"
+    }
+  },
+  {
+    "code": "PL",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Poland",
+      "ISO_A2": "PL",
+      "ISO_A2_EH": "PL",
+      "POSTAL": "PL",
+      "ADM0_A3": "POL"
+    }
+  },
+  {
+    "code": "AT",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Austria",
+      "ISO_A2": "AT",
+      "ISO_A2_EH": "AT",
+      "POSTAL": "A",
+      "ADM0_A3": "AUT"
+    }
+  },
+  {
+    "code": "HU",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Hungary",
+      "ISO_A2": "HU",
+      "ISO_A2_EH": "HU",
+      "POSTAL": "HU",
+      "ADM0_A3": "HUN"
+    }
+  },
+  {
+    "code": "MD",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Moldova",
+      "ISO_A2": "MD",
+      "ISO_A2_EH": "MD",
+      "POSTAL": "MD",
+      "ADM0_A3": "MDA"
+    }
+  },
+  {
+    "code": "RO",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Romania",
+      "ISO_A2": "RO",
+      "ISO_A2_EH": "RO",
+      "POSTAL": "RO",
+      "ADM0_A3": "ROU"
+    }
+  },
+  {
+    "code": "LT",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Lithuania",
+      "ISO_A2": "LT",
+      "ISO_A2_EH": "LT",
+      "POSTAL": "LT",
+      "ADM0_A3": "LTU"
+    }
+  },
+  {
+    "code": "LV",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Latvia",
+      "ISO_A2": "LV",
+      "ISO_A2_EH": "LV",
+      "POSTAL": "LV",
+      "ADM0_A3": "LVA"
+    }
+  },
+  {
+    "code": "EE",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Estonia",
+      "ISO_A2": "EE",
+      "ISO_A2_EH": "EE",
+      "POSTAL": "EST",
+      "ADM0_A3": "EST"
+    }
+  },
+  {
+    "code": "DE",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Germany",
+      "ISO_A2": "DE",
+      "ISO_A2_EH": "DE",
+      "POSTAL": "D",
+      "ADM0_A3": "DEU"
+    }
+  },
+  {
+    "code": "BG",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Bulgaria",
+      "ISO_A2": "BG",
+      "ISO_A2_EH": "BG",
+      "POSTAL": "BG",
+      "ADM0_A3": "BGR"
+    }
+  },
+  {
+    "code": "GR",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Greece",
+      "ISO_A2": "GR",
+      "ISO_A2_EH": "GR",
+      "POSTAL": "GR",
+      "ADM0_A3": "GRC"
+    }
+  },
+  {
+    "code": "TR",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Turkey",
+      "ISO_A2": "TR",
+      "ISO_A2_EH": "TR",
+      "POSTAL": "TR",
+      "ADM0_A3": "TUR"
+    }
+  },
+  {
+    "code": "AL",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Albania",
+      "ISO_A2": "AL",
+      "ISO_A2_EH": "AL",
+      "POSTAL": "AL",
+      "ADM0_A3": "ALB"
+    }
+  },
+  {
+    "code": "HR",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Croatia",
+      "ISO_A2": "HR",
+      "ISO_A2_EH": "HR",
+      "POSTAL": "HR",
+      "ADM0_A3": "HRV"
+    }
+  },
+  {
+    "code": "CH",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Switzerland",
+      "ISO_A2": "CH",
+      "ISO_A2_EH": "CH",
+      "POSTAL": "CH",
+      "ADM0_A3": "CHE"
+    }
+  },
+  {
+    "code": "LU",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Luxembourg",
+      "ISO_A2": "LU",
+      "ISO_A2_EH": "LU",
+      "POSTAL": "L",
+      "ADM0_A3": "LUX"
+    }
+  },
+  {
+    "code": "BE",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Belgium",
+      "ISO_A2": "BE",
+      "ISO_A2_EH": "BE",
+      "POSTAL": "B",
+      "ADM0_A3": "BEL"
+    }
+  },
+  {
+    "code": "NL",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Netherlands",
+      "ISO_A2": "NL",
+      "ISO_A2_EH": "NL",
+      "POSTAL": "NL",
+      "ADM0_A3": "NLD"
+    }
+  },
+  {
+    "code": "PT",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Portugal",
+      "ISO_A2": "PT",
+      "ISO_A2_EH": "PT",
+      "POSTAL": "P",
+      "ADM0_A3": "PRT"
+    }
+  },
+  {
+    "code": "ES",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Spain",
+      "ISO_A2": "ES",
+      "ISO_A2_EH": "ES",
+      "POSTAL": "E",
+      "ADM0_A3": "ESP"
+    }
+  },
+  {
+    "code": "IE",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Ireland",
+      "ISO_A2": "IE",
+      "ISO_A2_EH": "IE",
+      "POSTAL": "IRL",
+      "ADM0_A3": "IRL"
+    }
+  },
+  {
+    "code": "NC",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "New Caledonia",
+      "ISO_A2": "NC",
+      "ISO_A2_EH": "NC",
+      "POSTAL": "NC",
+      "ADM0_A3": "NCL"
+    }
+  },
+  {
+    "code": "SB",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Solomon Islands",
+      "ISO_A2": "SB",
+      "ISO_A2_EH": "SB",
+      "POSTAL": "SB",
+      "ADM0_A3": "SLB"
+    }
+  },
+  {
+    "code": "NZ",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "New Zealand",
+      "ISO_A2": "NZ",
+      "ISO_A2_EH": "NZ",
+      "POSTAL": "NZ",
+      "ADM0_A3": "NZL"
+    }
+  },
+  {
+    "code": "AU",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Australia",
+      "ISO_A2": "AU",
+      "ISO_A2_EH": "AU",
+      "POSTAL": "AU",
+      "ADM0_A3": "AUS"
+    }
+  },
+  {
+    "code": "LK",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Sri Lanka",
+      "ISO_A2": "LK",
+      "ISO_A2_EH": "LK",
+      "POSTAL": "LK",
+      "ADM0_A3": "LKA"
+    }
+  },
+  {
+    "code": "CN",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "China",
+      "ISO_A2": "CN",
+      "ISO_A2_EH": "CN",
+      "POSTAL": "CN",
+      "ADM0_A3": "CHN"
+    }
+  },
+  {
+    "code": "TW",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Taiwan",
+      "ISO_A2": "CN-TW",
+      "ISO_A2_EH": "TW",
+      "POSTAL": "TW",
+      "ADM0_A3": "TWN"
+    }
+  },
+  {
+    "code": "IT",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Italy",
+      "ISO_A2": "IT",
+      "ISO_A2_EH": "IT",
+      "POSTAL": "I",
+      "ADM0_A3": "ITA"
+    }
+  },
+  {
+    "code": "DK",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Denmark",
+      "ISO_A2": "DK",
+      "ISO_A2_EH": "DK",
+      "POSTAL": "DK",
+      "ADM0_A3": "DNK"
+    }
+  },
+  {
+    "code": "GB",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "United Kingdom",
+      "ISO_A2": "GB",
+      "ISO_A2_EH": "GB",
+      "POSTAL": "GB",
+      "ADM0_A3": "GBR"
+    }
+  },
+  {
+    "code": "IS",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Iceland",
+      "ISO_A2": "IS",
+      "ISO_A2_EH": "IS",
+      "POSTAL": "IS",
+      "ADM0_A3": "ISL"
+    }
+  },
+  {
+    "code": "AZ",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Azerbaijan",
+      "ISO_A2": "AZ",
+      "ISO_A2_EH": "AZ",
+      "POSTAL": "AZ",
+      "ADM0_A3": "AZE"
+    }
+  },
+  {
+    "code": "GE",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Georgia",
+      "ISO_A2": "GE",
+      "ISO_A2_EH": "GE",
+      "POSTAL": "GE",
+      "ADM0_A3": "GEO"
+    }
+  },
+  {
+    "code": "PH",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Philippines",
+      "ISO_A2": "PH",
+      "ISO_A2_EH": "PH",
+      "POSTAL": "PH",
+      "ADM0_A3": "PHL"
+    }
+  },
+  {
+    "code": "MY",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Malaysia",
+      "ISO_A2": "MY",
+      "ISO_A2_EH": "MY",
+      "POSTAL": "MY",
+      "ADM0_A3": "MYS"
+    }
+  },
+  {
+    "code": "BN",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Brunei",
+      "ISO_A2": "BN",
+      "ISO_A2_EH": "BN",
+      "POSTAL": "BN",
+      "ADM0_A3": "BRN"
+    }
+  },
+  {
+    "code": "SI",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Slovenia",
+      "ISO_A2": "SI",
+      "ISO_A2_EH": "SI",
+      "POSTAL": "SLO",
+      "ADM0_A3": "SVN"
+    }
+  },
+  {
+    "code": "FI",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Finland",
+      "ISO_A2": "FI",
+      "ISO_A2_EH": "FI",
+      "POSTAL": "FIN",
+      "ADM0_A3": "FIN"
+    }
+  },
+  {
+    "code": "SK",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Slovakia",
+      "ISO_A2": "SK",
+      "ISO_A2_EH": "SK",
+      "POSTAL": "SK",
+      "ADM0_A3": "SVK"
+    }
+  },
+  {
+    "code": "CZ",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Czechia",
+      "ISO_A2": "CZ",
+      "ISO_A2_EH": "CZ",
+      "POSTAL": "CZ",
+      "ADM0_A3": "CZE"
+    }
+  },
+  {
+    "code": "ER",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Eritrea",
+      "ISO_A2": "ER",
+      "ISO_A2_EH": "ER",
+      "POSTAL": "ER",
+      "ADM0_A3": "ERI"
+    }
+  },
+  {
+    "code": "JP",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Japan",
+      "ISO_A2": "JP",
+      "ISO_A2_EH": "JP",
+      "POSTAL": "J",
+      "ADM0_A3": "JPN"
+    }
+  },
+  {
+    "code": "PY",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Paraguay",
+      "ISO_A2": "PY",
+      "ISO_A2_EH": "PY",
+      "POSTAL": "PY",
+      "ADM0_A3": "PRY"
+    }
+  },
+  {
+    "code": "YE",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Yemen",
+      "ISO_A2": "YE",
+      "ISO_A2_EH": "YE",
+      "POSTAL": "YE",
+      "ADM0_A3": "YEM"
+    }
+  },
+  {
+    "code": "SA",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Saudi Arabia",
+      "ISO_A2": "SA",
+      "ISO_A2_EH": "SA",
+      "POSTAL": "SA",
+      "ADM0_A3": "SAU"
+    }
+  },
+  {
+    "code": "AQ",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Antarctica",
+      "ISO_A2": "AQ",
+      "ISO_A2_EH": "AQ",
+      "POSTAL": "AQ",
+      "ADM0_A3": "ATA"
+    }
+  },
+  {
+    "code": "-99",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Northern Cyprus",
+      "ISO_A2": "-99",
+      "ISO_A2_EH": "-99",
+      "POSTAL": "CN",
+      "ADM0_A3": "CYN"
+    }
+  },
+  {
+    "code": "CY",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Cyprus",
+      "ISO_A2": "CY",
+      "ISO_A2_EH": "CY",
+      "POSTAL": "CY",
+      "ADM0_A3": "CYP"
+    }
+  },
+  {
+    "code": "MA",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Morocco",
+      "ISO_A2": "MA",
+      "ISO_A2_EH": "MA",
+      "POSTAL": "MA",
+      "ADM0_A3": "MAR"
+    }
+  },
+  {
+    "code": "EG",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Egypt",
+      "ISO_A2": "EG",
+      "ISO_A2_EH": "EG",
+      "POSTAL": "EG",
+      "ADM0_A3": "EGY"
+    }
+  },
+  {
+    "code": "LY",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Libya",
+      "ISO_A2": "LY",
+      "ISO_A2_EH": "LY",
+      "POSTAL": "LY",
+      "ADM0_A3": "LBY"
+    }
+  },
+  {
+    "code": "ET",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Ethiopia",
+      "ISO_A2": "ET",
+      "ISO_A2_EH": "ET",
+      "POSTAL": "ET",
+      "ADM0_A3": "ETH"
+    }
+  },
+  {
+    "code": "DJ",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Djibouti",
+      "ISO_A2": "DJ",
+      "ISO_A2_EH": "DJ",
+      "POSTAL": "DJ",
+      "ADM0_A3": "DJI"
+    }
+  },
+  {
+    "code": "-99",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Somaliland",
+      "ISO_A2": "-99",
+      "ISO_A2_EH": "-99",
+      "POSTAL": "SL",
+      "ADM0_A3": "SOL"
+    }
+  },
+  {
+    "code": "UG",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Uganda",
+      "ISO_A2": "UG",
+      "ISO_A2_EH": "UG",
+      "POSTAL": "UG",
+      "ADM0_A3": "UGA"
+    }
+  },
+  {
+    "code": "RW",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Rwanda",
+      "ISO_A2": "RW",
+      "ISO_A2_EH": "RW",
+      "POSTAL": "RW",
+      "ADM0_A3": "RWA"
+    }
+  },
+  {
+    "code": "BA",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Bosnia and Herzegovina",
+      "ISO_A2": "BA",
+      "ISO_A2_EH": "BA",
+      "POSTAL": "BiH",
+      "ADM0_A3": "BIH"
+    }
+  },
+  {
+    "code": "MK",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "North Macedonia",
+      "ISO_A2": "MK",
+      "ISO_A2_EH": "MK",
+      "POSTAL": "NM",
+      "ADM0_A3": "MKD"
+    }
+  },
+  {
+    "code": "RS",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Republic of Serbia",
+      "ISO_A2": "RS",
+      "ISO_A2_EH": "RS",
+      "POSTAL": "RS",
+      "ADM0_A3": "SRB"
+    }
+  },
+  {
+    "code": "ME",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Montenegro",
+      "ISO_A2": "ME",
+      "ISO_A2_EH": "ME",
+      "POSTAL": "ME",
+      "ADM0_A3": "MNE"
+    }
+  },
+  {
+    "code": "XK",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Kosovo",
+      "ISO_A2": "-99",
+      "ISO_A2_EH": "XK",
+      "POSTAL": "KO",
+      "ADM0_A3": "KOS"
+    }
+  },
+  {
+    "code": "TT",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "Trinidad and Tobago",
+      "ISO_A2": "TT",
+      "ISO_A2_EH": "TT",
+      "POSTAL": "TT",
+      "ADM0_A3": "TTO"
+    }
+  },
+  {
+    "code": "SS",
+    "exact_rings_equal": true,
+    "upstream_properties": {
+      "ADMIN": "South Sudan",
+      "ISO_A2": "SS",
+      "ISO_A2_EH": "SS",
+      "POSTAL": "SS",
+      "ADM0_A3": "SDS"
+    }
+  }
+]

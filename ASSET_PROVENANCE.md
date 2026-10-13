@@ -1,0 +1,17 @@
+# Asset Provenance and Public-Release Gate
+
+This clean public snapshot has its own complete candidate-current-manifest.json. Per-file upstream mappings, credits, artwork recipes and licenses accompany it. Historical private acquisition reports and old assets are not part of this distribution.
+
+| Asset group                                      | Status   | Current evidence                                                                                                             | Redistribution conditions                                          |
+| ------------------------------------------------ | -------- | ---------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
+| `src/assets/icons.generated.json`                | Verified | 154 exact records checked against pinned Iconify 2.2.529, per-set licenses retained                                          | Full copyright notices, no trademark endorsement                   |
+| `public/images/flags/*.svg`                      | Verified | 258 byte-identical Twemoji v14.0.2, per-file mapping and source hashes retained                                              | Twitter/contributors CC BY 4.0                                     |
+| `public/assets/earth/country-boundaries-v1.json` | Verified | Natural Earth v5.1.2 layer5.1.1, 177 structured country geometries                                                           | Public-domain provenance retained                                  |
+| Blue Marble JPG/WebP                             | Verified | Official NASA2002 exact product/source hash/lossless conversion in NASA_TEXTURE.md; legacy JPG removed                       | Informational visualization, NASA credits, no endorsement          |
+| OS/vendor logos                                  | Verified | 31 uncertain standalone files removed, original generic monitor icon+OS name; Gentoo and Tabler retained with exact evidence | Gentoo CC BY-SA2.5, Tabler MIT; no brand endorsement               |
+| Night/topology/water maps                        | Verified | Official NASA2016 Black Marble unchanged; pinned Natural Earth mask; original neutral bump                                   | Credits and script retained; neutral bump not claimed as terrain   |
+| `public/favicon.ico`                             | Verified | Approved original PR17 geometric Earth SVG+generator; exact current hash                                                     | MIT original artwork, no legacy character                          |
+| Default background                               | Verified | Original seeded procedural starfield; full generator and starfield-creation.json record, zero input images                   | Hermes/SJC original MIT illustration; no Pixabay; not a photograph |
+| Documentation images                             | Verified | Newly captured candidate pages and fixed fictional API; legacy embedded artwork removed                                      | Capture fixture and explicit current hashes retained               |
+
+Verified means the documented source/recipe/license path was checked to a reasonable evidence standard, not an absolute legal guarantee. Full current manifest, fixed upstream comparison and privacy/security checks remain mandatory. New files cannot pass by relabeling alone. This release does not publish any private repository history or change a production deployment.

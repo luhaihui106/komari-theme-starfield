@@ -1,0 +1,52 @@
+{
+  "schema": 1,
+  "scope": "Current public geographic assets; source identity and conversion, not historical acquisition claims",
+  "groups": {
+    "flags": {
+      "status": "verified",
+      "source_status": "verified",
+      "license_status": "verified",
+      "upstream": {
+        "repository": "twitter/twemoji",
+        "ref": "v14.0.2",
+        "commit": "7a3dad4a4da30497093dab22eafba135f02308e1"
+      },
+      "count": 258,
+      "byte_identical_count": 258,
+      "license": {
+        "name": "CC-BY-4.0 (graphics, not MIT code license)",
+        "url": "https://raw.githubusercontent.com/twitter/twemoji/7a3dad4a4da30497093dab22eafba135f02308e1/LICENSE-GRAPHICS",
+        "sha256": "8ae9438818c26e4873b91d8c6ad620526c011e27e125677f13031eda903f007c",
+        "attribution": "Twitter, Inc and other contributors; retain CC BY 4.0 notice and source link",
+        "local_evidence": "docs/asset-evidence/licenses/twemoji-cc-by-4.0.txt"
+      },
+      "mapping": "Each two-letter code maps directly to corresponding pair of Unicode regional indicators (U+1F1E6 + ASCII letter offset), lower-case hex joined by hyphen. All 258 original SVGs byte-identical; no transformation required."
+    },
+    "boundaries": {
+      "status": "verified",
+      "source_status": "verified",
+      "license_status": "verified",
+      "upstream": {
+        "repository": "nvkelso/natural-earth-vector",
+        "ref": "v5.1.2",
+        "commit": "f1890d9f152c896d250a77557a5751a93d494776"
+      },
+      "dataset_layer": "ne_110m_admin_0_countries",
+      "dataset_layer_version": "5.1.1",
+      "repository_release": "v5.1.2 (layer VERSION is 5.1.1, not 5.1.2)",
+      "source_url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_110m_admin_0_countries.geojson",
+      "source_sha256": "6866c877d39cba9c357620878839b336d569f8c662d3cfab4cb1dbe2d39c977f",
+      "target_sha256": "dcb0157bc44e10f11db8ecaa84399c31136715c7471b3f415edc586c8949efa3",
+      "country_count": 177,
+      "exact_coordinate_and_ring_order_matches": 177,
+      "full_structured_document_equal": true,
+      "conversion": "Preserve feature order. code=properties.ISO_A2_EH. Polygon coordinates used directly; MultiPolygon flattened one polygon level preserving all rings (including holes) and order. No rounding, simplification or coordinate transforms. Compact JSON serialization written separately; original serialization not assumed.",
+      "reproduced_byte_equal": false,
+      "license": {
+        "name": "Public domain",
+        "url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/LICENSE.md",
+        "sha256": "2631b5b39b6d1acc56de75235109b5af2dbb4b0ac5a127b6f06185977247fd4b"
+      }
+    }
+  }
+}

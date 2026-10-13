@@ -1,0 +1,341 @@
+{
+  "package": "@iconify/json",
+  "version": "2.2.529",
+  "tarball_url": "https://registry.npmjs.org/@iconify/json/-/json-2.2.529.tgz",
+  "tarball_sha256": "9e622f7e0d42a829835be95acdc6a6a93368a510788db18d3bee3d3c73014f00",
+  "target_sha256": "0efda77a90f267bf7d92d755b8a9463296bda6d9fa386512ffdb5f2e97038a43",
+  "collections": [
+    {
+      "prefix": "carbon",
+      "count": 1,
+      "names": [
+        "information"
+      ],
+      "collection_sha256": "73322321718e0daee6ccec1a41b5664f2b4159da9256c3fe335941d04007eef9",
+      "info": {
+        "name": "Carbon",
+        "total": 2618,
+        "version": "11.88.0",
+        "author": {
+          "name": "IBM",
+          "url": "https://github.com/carbon-design-system/carbon/tree/main/packages/icons"
+        },
+        "license": {
+          "title": "Apache 2.0",
+          "spdx": "Apache-2.0"
+        },
+        "samples": [
+          "user-certification",
+          "humidity",
+          "edit-off",
+          "flag-filled",
+          "binding-01",
+          "mac-option"
+        ],
+        "height": 32,
+        "displayHeight": 16,
+        "category": "UI 16px / 32px",
+        "tags": [
+          "Precise Shapes",
+          "Has Padding"
+        ],
+        "palette": false
+      }
+    },
+    {
+      "prefix": "icon-park-outline",
+      "count": 27,
+      "names": [
+        "android",
+        "apple",
+        "application-two",
+        "browser-chrome",
+        "close",
+        "code",
+        "computer",
+        "cpu",
+        "dashboard-one",
+        "earth",
+        "hard-disk",
+        "laptop",
+        "local",
+        "memory",
+        "moon",
+        "protect",
+        "server",
+        "setting",
+        "sun",
+        "sun-one",
+        "switch",
+        "time",
+        "timer",
+        "transfer-data",
+        "user",
+        "video-one",
+        "windows"
+      ],
+      "collection_sha256": "20f36a8cdb045225e0f0e0902f2694823c3140d02aec5c1851d57515f1428713",
+      "info": {
+        "name": "IconPark Outline",
+        "total": 2658,
+        "version": "1.4.2",
+        "author": {
+          "name": "ByteDance",
+          "url": "https://github.com/bytedance/IconPark"
+        },
+        "license": {
+          "title": "Apache 2.0",
+          "spdx": "Apache-2.0",
+          "url": "https://github.com/bytedance/IconPark/blob/master/LICENSE"
+        },
+        "samples": [
+          "add-one",
+          "english-mustache",
+          "basketball-clothes",
+          "sort",
+          "lightning",
+          "pinwheel"
+        ],
+        "height": 24,
+        "category": "UI 24px",
+        "tags": [
+          "Precise Shapes",
+          "Has Padding",
+          "Uses Stroke"
+        ],
+        "palette": false
+      }
+    },
+    {
+      "prefix": "lucide",
+      "count": 6,
+      "names": [
+        "circle-check",
+        "info",
+        "loader-circle",
+        "octagon-x",
+        "triangle-alert",
+        "x"
+      ],
+      "collection_sha256": "46f2ae4a7348914df6e13eaf7bb74018d7e6b692446653b23db9f70d6a4d2d1a",
+      "info": {
+        "name": "Lucide",
+        "total": 1847,
+        "author": {
+          "name": "Lucide Contributors",
+          "url": "https://github.com/lucide-icons/lucide"
+        },
+        "license": {
+          "title": "ISC",
+          "spdx": "ISC",
+          "url": "https://github.com/lucide-icons/lucide/blob/main/LICENSE"
+        },
+        "samples": [
+          "circle-check",
+          "award",
+          "house",
+          "check",
+          "mountain",
+          "chevron-up"
+        ],
+        "height": 24,
+        "category": "UI 24px",
+        "tags": [
+          "Precise Shapes",
+          "Has Padding",
+          "Uses Stroke"
+        ],
+        "palette": false
+      }
+    },
+    {
+      "prefix": "simple-icons",
+      "count": 14,
+      "names": [
+        "alibabacloud",
+        "amazonwebservices",
+        "cloudflare",
+        "digitalocean",
+        "googlecloud",
+        "hetzner",
+        "huawei",
+        "ibmcloud",
+        "microsoftazure",
+        "oracle",
+        "ovh",
+        "scaleway",
+        "qq",
+        "vultr"
+      ],
+      "collection_sha256": "95e6d7546255405039a5034f6342e3ec6db1309c12524ae32402ebfc5b3de6ee",
+      "info": {
+        "name": "Simple Icons",
+        "total": 3460,
+        "version": "16.31.0",
+        "author": {
+          "name": "Simple Icons Collaborators",
+          "url": "https://github.com/simple-icons/simple-icons"
+        },
+        "license": {
+          "title": "CC0 1.0",
+          "spdx": "CC0-1.0",
+          "url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md"
+        },
+        "samples": [
+          "wise",
+          "framer",
+          "vuetify",
+          "unsplash",
+          "stackblitz",
+          "mitsubishi"
+        ],
+        "height": 24,
+        "category": "Logos",
+        "palette": false
+      }
+    },
+    {
+      "prefix": "tabler",
+      "count": 106,
+      "names": [
+        "activity",
+        "activity-heartbeat",
+        "alert-circle",
+        "alert-triangle",
+        "alert-triangle-filled",
+        "arrow-big-down-lines",
+        "arrow-big-up-lines",
+        "arrow-down",
+        "arrow-left",
+        "arrow-up",
+        "arrows-transfer-up-down",
+        "binary-tree",
+        "box-multiple",
+        "braces",
+        "calculator",
+        "calendar-dollar",
+        "calendar-exclamation",
+        "calendar-stats",
+        "cash",
+        "category",
+        "chart-bar",
+        "chart-histogram",
+        "chart-line",
+        "check",
+        "chevron-down",
+        "chevron-left",
+        "chevron-right",
+        "chevron-up",
+        "chevrons-down",
+        "chevrons-right",
+        "chevrons-up",
+        "circle-check",
+        "clock",
+        "clock-down",
+        "clock-pause",
+        "clock-up",
+        "cloud-exclamation",
+        "cloud-network",
+        "cloud-off",
+        "coins",
+        "columns-3",
+        "corner-down-right",
+        "cpu",
+        "currency-yuan",
+        "current-location",
+        "database",
+        "device-desktop",
+        "device-desktop-analytics",
+        "device-floppy",
+        "device-imac",
+        "download",
+        "external-link",
+        "eye",
+        "file-spreadsheet",
+        "filter",
+        "folder",
+        "gauge",
+        "git-branch",
+        "git-branch-deleted",
+        "heartbeat",
+        "info-circle",
+        "layout-dashboard",
+        "layout-grid",
+        "list-details",
+        "list-numbers",
+        "loader-2",
+        "map-pin",
+        "network",
+        "network-off",
+        "plug-connected",
+        "plug-connected-x",
+        "point-filled",
+        "radar",
+        "receipt-2",
+        "refresh",
+        "route",
+        "scale",
+        "search",
+        "search-off",
+        "server",
+        "server-2",
+        "server-cog",
+        "server-off",
+        "settings",
+        "shield-check",
+        "shield-off",
+        "shield-pause",
+        "sparkles",
+        "stack-2",
+        "star",
+        "star-filled",
+        "table",
+        "tag",
+        "temperature",
+        "timeline",
+        "tool",
+        "tools",
+        "traffic-cone",
+        "trash",
+        "trophy",
+        "upload",
+        "user-question",
+        "user-shield",
+        "world",
+        "world-share",
+        "x"
+      ],
+      "collection_sha256": "0efe30fc0f1e88b243e0f9511b2317995c75aea722210972b3dd3cbbd45ee70a",
+      "info": {
+        "name": "Tabler Icons",
+        "total": 6184,
+        "version": "3.46.0",
+        "author": {
+          "name": "Pawe\u0142 Kuna",
+          "url": "https://github.com/tabler/tabler-icons"
+        },
+        "license": {
+          "title": "MIT",
+          "spdx": "MIT",
+          "url": "https://github.com/tabler/tabler-icons/blob/master/LICENSE"
+        },
+        "samples": [
+          "alien",
+          "device-desktop",
+          "photo",
+          "chevron-right",
+          "check",
+          "square-root"
+        ],
+        "height": 24,
+        "category": "UI 24px",
+        "tags": [
+          "Precise Shapes",
+          "Has Padding",
+          "Uses Stroke"
+        ],
+        "palette": false
+      }
+    }
+  ]
+}
