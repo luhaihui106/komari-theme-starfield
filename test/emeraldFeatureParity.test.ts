@@ -42,7 +42,7 @@ it('preserves boundaries, low arcs, packets, markers and performance guards', ()
 it('preserves labels, real flags, live rates and visitor marker', () => {
   expect(globe).toContain('new Intl.DisplayNames([\'zh-CN\']')
   expect(globe).toContain('const assetBase = import.meta.env.BASE_URL')
-  expect(globe).toContain(':src="`${assetBase}images/flags/${cluster.code}.svg`"')
+  expect(globe).toContain(':src="`$' + '{assetBase}images/flags/$' + '{cluster.code}.svg`"')
   expect(globe).toContain('props.rateNodes ?? displayNodes.value')
   expect(globe).toContain('您的位置')
   expect(globe).toContain('visitorBeacon')
