@@ -34,9 +34,9 @@ jobs:
         run: |
           export SOURCE_DATE_EPOCH="$(git show -s --format=%ct HEAD)"
           short_sha="$(git rev-parse --short HEAD)"
-          export VITE_THEME_ASSET_BASE="/themes/GlassEmerald/dist-${short_sha}/"
+          export VITE_THEME_ASSET_BASE="/themes/Starfield/dist-${short_sha}/"
           bun run build
-          mapfile -t archives < <(find . -maxdepth 1 -type f -name 'komari-theme-GlassEmerald-build-*.zip' -printf '%f\n' | sort)
+          mapfile -t archives < <(find . -maxdepth 1 -type f -name 'komari-theme-Starfield-build-*.zip' -printf '%f\n' | sort)
           test "${#archives[@]}" -eq 1
           archive="${archives[0]}"
           cp "$archive" "${archive}.first"
@@ -45,7 +45,7 @@ jobs:
           cmp "${archive}.first" "$archive"
           rm "${archive}.first"
           sha256sum "$archive" > "${archive}.sha256"
-          sha256sum "$archive" GlassEmerald.spdx.json > SHA256SUMS
+          sha256sum "$archive" Starfield.spdx.json > SHA256SUMS
           ARCHIVE="$archive" node <<'NODE'
           const { execFileSync } = require('node:child_process')
           const { createHash } = require('node:crypto')
@@ -66,11 +66,11 @@ jobs:
         with:
           name: release-files
           path: |
-            komari-theme-GlassEmerald-build*.zip
-            komari-theme-GlassEmerald-build*.zip.sha256
+            komari-theme-Starfield-build*.zip
+            komari-theme-Starfield-build*.zip.sha256
             SHA256SUMS
             release-provenance.json
-            GlassEmerald.spdx.json
+            Starfield.spdx.json
           if-no-files-found: error
 
   publish:
@@ -85,12 +85,13 @@ jobs:
           name: release-files
       - uses: softprops/action-gh-release@efb35369e0ad2afab669f228072c1b0d510eae64 # v3.0.3
         with:
+          draft: true
           generate_release_notes: true
           fail_on_unmatched_files: true
           prerelease: ${{ contains(github.ref_name, '-') }}
           files: |
-            komari-theme-GlassEmerald-build*.zip
-            komari-theme-GlassEmerald-build*.zip.sha256
+            komari-theme-Starfield-build*.zip
+            komari-theme-Starfield-build*.zip.sha256
             SHA256SUMS
             release-provenance.json
-            GlassEmerald.spdx.json
+            Starfield.spdx.json

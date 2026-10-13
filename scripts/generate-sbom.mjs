@@ -19,8 +19,8 @@ const document = {
   spdxVersion: 'SPDX-2.3',
   dataLicense: 'CC0-1.0',
   SPDXID: 'SPDXRef-DOCUMENT',
-  name: 'GlassEmerald-direct-dependencies',
-  documentNamespace: `https://github.com/luhaihui106/GlassEmerald/sbom/${lockHash}`,
+  name: 'Starfield-direct-dependencies',
+  documentNamespace: `https://github.com/luhaihui106/komari-theme-starfield/sbom/${lockHash}`,
   creationInfo: {
     creators: ['Tool: scripts/generate-sbom.mjs'],
     created: '2026-10-10T00:00:00Z',
@@ -42,4 +42,4 @@ const document = {
     ...packages.map(p => ({ spdxElementId: 'SPDXRef-Root', relationshipType: 'DEPENDS_ON', relatedSpdxElement: p.SPDXID })),
   ],
 }
-writeFileSync('GlassEmerald.spdx.json', `${JSON.stringify(document, null, 2)}\n`)
+writeFileSync('Starfield.spdx.json', `${JSON.stringify(document, null, 2)}\n`)

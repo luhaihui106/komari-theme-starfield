@@ -1,6 +1,6 @@
 # NASA Blue Marble texture
 
-The Emerald globe's land/coastal shallow-water texture is NASA Blue Marble (2002), not original GlassEmerald artwork and not a Blue Marble Next Generation monthly image.
+The Emerald globe's land/coastal shallow-water texture is NASA Blue Marble (2002), not original Starfield artwork and not a Blue Marble Next Generation monthly image.
 
 Source: https://assets.science.nasa.gov/content/dam/science/esd/eo/content-feature/bluemarble/images/land_shallow_topo_2048.jpg
 Attribution: https://science.nasa.gov/resource/blue-marble/

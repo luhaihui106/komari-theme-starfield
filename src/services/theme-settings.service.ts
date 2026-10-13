@@ -1,7 +1,7 @@
 import { requestManager } from '@/services/request.service'
 import { getSharedApi } from '@/utils/api'
 
-const THEME_SHORT_NAME = 'GlassEmerald'
+const THEME_SHORT_NAME = 'Starfield'
 
 function cloneThemeSettings(current: Record<string, unknown> | string | null | undefined): Record<string, unknown> {
   if (!current)

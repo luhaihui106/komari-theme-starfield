@@ -93,7 +93,7 @@ function getCommitHash(): string {
   }
 }
 
-const themeAssetBase = process.env.VITE_THEME_ASSET_BASE || `/themes/GlassEmerald/dist-${getCommitHash()}/`
+const themeAssetBase = process.env.VITE_THEME_ASSET_BASE || `/themes/Starfield/dist-${getCommitHash()}/`
 
 function getSourceDate(): Date {
   const configuredEpoch = process.env.SOURCE_DATE_EPOCH
@@ -137,7 +137,7 @@ function komariThemeZip(): Plugin {
     closeBundle: async () => {
       const commitHash = getCommitHash()
       const immutableAssetDir = `dist-${commitHash}`
-      const zipFileName = `komari-theme-GlassEmerald-build-${commitHash}.zip`
+      const zipFileName = `komari-theme-Starfield-build-${commitHash}.zip`
       const distDir = resolve(__dirname, 'dist')
       const previewPath = resolve(__dirname, 'docs/preview.png')
       const outputPath = resolve(__dirname, zipFileName)

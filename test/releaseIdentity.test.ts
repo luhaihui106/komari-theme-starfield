@@ -7,12 +7,12 @@ const settingsService = readFileSync(new URL('src/services/theme-settings.servic
 const viteConfig = readFileSync(new URL('vite.config.ts', root), 'utf8')
 
 it('uses the manifest short name for theme settings writes', () => {
-  expect(manifest.short).toBe('GlassEmerald')
-  expect(settingsService).toContain('const THEME_SHORT_NAME = \'GlassEmerald\'')
+  expect(manifest.short).toBe('Starfield')
+  expect(settingsService).toContain('const THEME_SHORT_NAME = \'Starfield\'')
   expect(settingsService).not.toContain('GlassmorphismTS')
 })
 
-it('brands generated release archives as GlassEmerald', () => {
-  expect(viteConfig).toContain('komari-theme-GlassEmerald-build-$' + '{commitHash}.zip')
+it('brands generated release archives as Starfield', () => {
+  expect(viteConfig).toContain('komari-theme-Starfield-build-$' + '{commitHash}.zip')
   expect(viteConfig).not.toContain('komari-theme-Glassmorphism-build-$' + '{commitHash}.zip')
 })

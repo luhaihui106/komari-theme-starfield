@@ -5,8 +5,8 @@ const read = (file: string) => readFileSync(new URL(`../${file}`, import.meta.ur
 
 it('previews the Emerald renderer at the direct candidate URL without changing live settings', () => {
   const app = read('src/stores/app.ts')
-  expect(app).toContain('window.location.pathname === \'/themes/GlassEmerald/dist/index.html\'')
-  expect(app).toMatch(/if \(window\.location\.pathname === '\/themes\/GlassEmerald\/dist\/index\.html'\)\s*return 'emerald'/)
+  expect(app).toContain('window.location.pathname === \'/themes/Starfield/dist/index.html\'')
+  expect(app).toMatch(/if \(window\.location\.pathname === '\/themes\/Starfield\/dist\/index\.html'\)\s*return 'emerald'/)
 })
 
 it('renders home when opening the candidate theme index directly', () => {

@@ -1,6 +1,6 @@
 # Third-Party Notices
 
-GlassEmerald is derived code, not a license grant over all independent artwork. Preserve this notice and `docs/asset-evidence/licenses/` in source and binary distributions.
+Starfield is derived code, not a license grant over all independent artwork. Preserve this notice and `docs/asset-evidence/licenses/` in source and binary distributions.
 
 ## Theme code
 

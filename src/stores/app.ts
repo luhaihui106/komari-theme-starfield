@@ -1128,7 +1128,7 @@ const useAppStore = defineStore('app', () => {
   const visitorExitCoord = ref<[number, number] | null>(null)
 
   const earthRenderer = computed<EarthRenderer>(() => {
-    if (window.location.pathname === '/themes/GlassEmerald/dist/index.html')
+    if (window.location.pathname === '/themes/Starfield/dist/index.html')
       return 'emerald'
     const value = themeSettings.value.earthRenderer
     return isValidEarthRenderer(value) ? value : 'emerald'

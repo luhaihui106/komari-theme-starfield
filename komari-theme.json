@@ -1,10 +1,10 @@
 {
-  "name": "GlassEmerald",
-  "short": "GlassEmerald",
-  "description": "A derived Emerald glass theme for Komari",
-  "version": "0.1.6",
+  "name": "Starfield",
+  "short": "Starfield",
+  "description": "星空（Starfield）— independently maintained derived glass theme for Komari",
+  "version": "0.1.7",
   "author": "WH and upstream contributors",
-  "url": "https://github.com/luhaihui106/GlassEmerald-public",
+  "url": "https://github.com/luhaihui106/komari-theme-starfield",
   "preview": "preview.png",
   "configuration": {
     "type": "managed",

@@ -1,4 +1,4 @@
-# GlassEmerald
+# 星空（Starfield）
 
 面向 Komari Monitor 的 Vue 3 / TypeScript 派生访客主题。独立维护，不是 Komari 官方产品。
 
@@ -14,12 +14,12 @@
 
 本版本为访客前端主题，不包含后端或独立管理后台。源码支持 Komari 1.2.6 Metric Store 接口及旧 records 回退；Komari 1.5+ 的 /admin、/terminal 由后端内置前端提供。标准主题 ZIP 路径已在隔离环境验证；这不等于对全部后端版本或物理手机完成认证。高级工具、访客位置、审计等功能需要后端相应接口和权限，缺失时不可据此保证可用。
 
-1. 从 [Releases](https://github.com/luhaihui106/GlassEmerald-public/releases) 下载 komari-theme-GlassEmerald-build-*.zip，并核对 SHA256SUMS。
-2. 登录 Komari 后台，进入主题管理，上传 ZIP，然后应用 GlassEmerald。
+1. 从 [Releases](https://github.com/luhaihui106/komari-theme-starfield/releases) 下载 komari-theme-Starfield-build-*.zip，并核对 SHA256SUMS。
+2. 登录 Komari 后台，进入主题管理，上传 ZIP，然后应用 Starfield（星空）。
 3. ZIP 根目录包含 komari-theme.json、dist/ 和许可证；请勿上传 GitHub 自动生成的 Source code.zip。
 4. 远程导入可使用 Release 中该 ZIP 的公开下载地址。上传会替换同名主题，操作前保留原主题包与设置。
 
-主题名字仍为 GlassEmerald，公开仓库名字为 GlassEmerald-public。安装不会自动迁移设置或修改后端。
+自 v0.1.7 起品牌为 星空（Starfield），内部 name/short 为 Starfield，公开仓库为 komari-theme-starfield。这是独立安装主题，不覆盖 GlassEmerald 主题或自动迁移其后端设置；请手动选择并配置新主题。旧 v0.1.6 标签和发行附件保留原字节。地球 renderer 的 emerald 值及浏览器位置缓存键 glass-emerald-globe-position-v1 保留为兼容实现标识，不代表后端设置迁移。
 
 ## 预览
 

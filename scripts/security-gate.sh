@@ -18,7 +18,7 @@ fi
 node scripts/check-privacy-gate.mjs
 node scripts/check-asset-provenance.mjs "${1:-}"
 node scripts/generate-sbom.mjs
-node -e "JSON.parse(require('node:fs').readFileSync('GlassEmerald.spdx.json'))"
+node -e "JSON.parse(require('node:fs').readFileSync('Starfield.spdx.json'))"
 
 if git grep -IEn \
   '(github_pat_[A-Za-z0-9_]{20,}|ghp_[A-Za-z0-9]{20,}|-----BEGIN (RSA |OPENSSH |EC )?PRIVATE KEY-----|[0-9]{8,10}:[A-Za-z0-9_-]{30,})' \
