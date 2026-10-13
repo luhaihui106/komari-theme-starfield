@@ -9,6 +9,9 @@ const STABLE_STYLE = `
     transition: none !important;
   }
   html { scroll-behavior: auto !important; }
+  /* Historical layout snapshots retain their v0.1.9 backdrop; current default
+     photography is independently decoded/hash-tested in starfield-identity. */
+  .default-background { background-image: url('/images/default-background-v2.webp') !important; }
   .earth-globe-host canvas,
   .earth-globe-canvas { opacity: 0 !important; }
 `

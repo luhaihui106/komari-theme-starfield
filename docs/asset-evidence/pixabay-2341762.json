@@ -1,0 +1,23 @@
+{
+  "item_id": 2341762,
+  "author": "EvgeniT",
+  "item_url": "https://pixabay.com/zh/photos/milky-way-night-stars-heaven-2341762/",
+  "published_date_displayed": "May 25, 2017",
+  "license": "CC0-1.0",
+  "license_basis": "Pixabay Terms section 4: CC0 Content is any content which lists a Published date prior to January 9, 2019.",
+  "terms_url": "https://pixabay.com/service/terms/",
+  "terms_last_updated_displayed": "November 18, 2024",
+  "retrieved_date_utc": "2026-10-13",
+  "item_evidence": "licenses/pixabay-2341762-item.txt",
+  "terms_evidence": "licenses/pixabay-terms-20261013.txt",
+  "source_url": "https://pixabay.com/get/gf7ea919d519f994910e6725664ff0c6dd0bcf8bf10d9d95b5569eeeb1f089fdef848fe29edcae86ac805cefd8dc6d461.jpg?longlived=",
+  "source_dimensions": [3400, 2067],
+  "source_sha256": "dfe3a9f48f90735c6a021809fc90fa338561eb5fc956ed62a4d746b6530b028b",
+  "runtime_asset": "public/images/pixabay-milky-way-2341762-df1a8e6a.webp",
+  "runtime_sha256": "df1a8e6af59f12870d9735762693ce083c7913df3cc44dd3572a84b3f022b40d",
+  "recipe": "Pillow 12.3.0 Image.open(source).convert('RGB').save(target, lossless=True, method=6)",
+  "decoded_rgb_identity": true,
+  "color_or_brightness_changes": "none",
+  "visual_check": "Milky Way, forest and meadow; no obvious identifiable people, branding or watermark; central portrait cover retains Milky Way.",
+  "ownership_statement": "Third-party photography, not Hermes/SJC original photography and not relicensed MIT. Former procedural starfield MIT creation records remain historical and unchanged."
+}

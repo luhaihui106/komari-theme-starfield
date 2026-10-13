@@ -41,7 +41,7 @@ Current standalone identifiers:
 
 - Gentoo: exact Commons image, Lennart Andre Rolland, CC BY-SA 2.5. Source https://commons.wikimedia.org/wiki/File:Gentoo_Linux_logo_matte.svg ; license https://creativecommons.org/licenses/by-sa/2.5/ . No image modification. Retain attribution and applicable share-alike terms; Gentoo identification/trademark policy needs independent review.
 
-All other standalone system/vendor artwork is replaced by an original generic terminal/monitor identifier and textual OS names. Default background is original procedural starfield variant B with gamma 0.52/Color 1.12; favicon is original geometric Earth artwork, both MIT. Generation records, exact approved hashes and full original MIT notices are retained. Documentation screenshots and visual baselines use fixed synthetic data. Historical acquisition reports and legacy images are not distributed.
+All other standalone system/vendor artwork is replaced by an original generic terminal/monitor identifier and textual OS names. The current default background is EvgeniT's Pixabay photograph 2341762, Published May 25, 2017, CC0-1.0 under Pixabay Terms §4 (not MIT or our original photography). See docs/asset-evidence/pixabay-2341762.json and retained full item/terms evidence. The former procedural starfield remains MIT historical artwork with its generator and creation records unchanged. The favicon is original geometric Earth artwork, MIT. Documentation screenshots and visual baselines use fixed synthetic data.
 
 ## Libraries and trademarks
 

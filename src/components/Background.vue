@@ -180,7 +180,7 @@ onUnmounted(() => {
   position: absolute;
   inset: 0;
   overflow: hidden;
-  background-image: url('/images/default-background-v2.webp');
+  background-image: url('/images/pixabay-milky-way-2341762-df1a8e6a.webp');
   background-position: center bottom;
   background-repeat: no-repeat;
   background-size: cover;
