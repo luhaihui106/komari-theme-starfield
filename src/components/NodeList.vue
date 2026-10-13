@@ -212,7 +212,7 @@ const nodeMetadataItemsByUuid = computed(() => {
 })
 
 function getFlagSrc(region: string): string {
-  return `/images/flags/${getRegionCode(region)}.svg`
+  return `${import.meta.env.BASE_URL}images/flags/${getRegionCode(region)}.svg`
 }
 
 function getRegionAltText(region: string): string {

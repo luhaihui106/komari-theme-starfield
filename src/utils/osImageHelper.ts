@@ -214,7 +214,7 @@ function findOSConfig(osString: string): OSConfig {
  */
 export function getOSImage(osString: string): string {
   const config = findOSConfig(osString)
-  return config.name === 'Gentoo' ? config.image : '/images/logo/generic-system.svg'
+  return `${import.meta.env.BASE_URL}${config.name === 'Gentoo' ? 'images/logo/os-gentoo.svg' : 'images/logo/generic-system.svg'}`
 }
 
 /**

@@ -15,10 +15,11 @@ const props = defineProps<{
   nodes?: NodeData[]
 }>()
 
-const EARTH_DAY_TEXTURE = '/images/earth/earth-blue-marble.webp'
-const EARTH_NIGHT_TEXTURE = '/images/earth/earth-night.jpg'
-const EARTH_BUMP_MAP = '/images/earth/earth-topology.png'
-const EARTH_SPECULAR_MAP = '/images/earth/earth-water.png'
+const ASSET_BASE = import.meta.env.BASE_URL
+const EARTH_DAY_TEXTURE = `${ASSET_BASE}images/earth/earth-blue-marble.webp`
+const EARTH_NIGHT_TEXTURE = `${ASSET_BASE}images/earth/earth-night.jpg`
+const EARTH_BUMP_MAP = `${ASSET_BASE}images/earth/earth-topology.png`
+const EARTH_SPECULAR_MAP = `${ASSET_BASE}images/earth/earth-water.png`
 const CHINA_COORD: [number, number] = [35.8617, 104.1954]
 
 const appStore = useAppStore()
@@ -96,7 +97,7 @@ function createLabelElement(data: object): HTMLElement {
 
   const flag = document.createElement('img')
   flag.className = 'earth-label-flag'
-  flag.src = `/images/flags/${label.code}.svg`
+  flag.src = `${ASSET_BASE}images/flags/${label.code}.svg`
   flag.alt = label.code
   root.appendChild(flag)
 

@@ -45,6 +45,9 @@ import { formatBytesPerSecondSplit } from '@/utils/helper'
 import { getSunDirection } from '@/utils/solarPosition'
 
 const props = defineProps<{ nodes?: NodeData[], rateNodes?: NodeData[], immersive?: boolean, visitorCountryCode?: string, visitorExitCoord?: [number, number] | null }>()
+
+const assetBase = import.meta.env.BASE_URL
+
 const EARTH_TEXTURE_URL = `${import.meta.env.BASE_URL}assets/earth/earth-blue-marble.webp`
 const appStore = useAppStore()
 const displayNodes = computed(() => props.nodes ?? [])
@@ -928,7 +931,7 @@ watch([() => regionClusters.value.map(c => `${c.id}:${c.coord[0]},${c.coord[1]}:
       <div :ref="bindClusterOverlayRef(cluster.id)" class="region-badge absolute top-0 left-0" :class="{ 'is-selected': selectedCityId === cluster.id }" role="button" tabindex="0" :aria-label="`${cluster.label} ${cluster.servers}台，查看城市详情`" :aria-expanded="selectedCityId === cluster.id" :title="cluster.id === cluster.code.toLowerCase() ? '国家级位置（IP 定位不可用）' : `${cluster.code} · ${cluster.id.slice(cluster.code.length + 1).replaceAll('-', ' ')} · 公网 IP 推测位置（非机场位置）`" @pointerdown.stop="cityPointerDown($event, cluster.id)" @pointermove="onPointerMove" @pointerup="onPointerUp" @pointercancel="onPointerUp" @keydown.enter.prevent="cityClick(cluster.id)" @keydown.space.prevent="cityClick(cluster.id)">
         <div class="region-badge__surface">
           <div class="region-badge__header">
-            <img class="region-badge__flag" :src="`/images/flags/${cluster.code}.svg`" :alt="`${countryNameFor(cluster.code)}国旗`">
+            <img class="region-badge__flag" :src="`${assetBase}images/flags/${cluster.code}.svg`" :alt="`${countryNameFor(cluster.code)}国旗`">
             <span class="region-badge__country">{{ cluster.label }}</span>
             <span v-if="visitorSharesRegion && cluster.id === props.visitorCountryCode?.toLowerCase()" class="region-badge__you" title="根据公网 IP 推测网络出口，并非设备实际位置">您的位置</span>
             <span class="region-badge__count">{{ cluster.servers }}台</span>

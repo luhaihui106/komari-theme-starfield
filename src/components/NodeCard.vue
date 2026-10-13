@@ -29,6 +29,7 @@ const emit = defineEmits<{
   click: []
   pingClick: []
 }>()
+const assetBase = import.meta.env.BASE_URL
 const appStore = useAppStore()
 const isFavorite = computed(() => appStore.isFavoriteNode(props.node.uuid))
 
@@ -341,7 +342,7 @@ function hasRegion(region: string | null | undefined): boolean {
         <img :src="getOSImage(props.node.os)" :alt="getOSName(props.node.os)" class="size-4">
         <img
           v-if="hasRegion(props.node.region)"
-          :src="`/images/flags/${getRegionCode(props.node.region)}.svg`"
+          :src="`${assetBase}images/flags/${getRegionCode(props.node.region)}.svg`"
           :alt="getRegionAltText(props.node.region)"
           class="size-5 shrink-0"
         >
