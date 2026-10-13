@@ -729,11 +729,15 @@ function startGlobe() {
         float blueDominance = gradedTexture.b - max(gradedTexture.r, gradedTexture.g);
         float oceanMask = smoothstep(0.001, 0.025, blueDominance) * smoothstep(0.008, 0.08, gradedTexture.b);
         vec3 daySaturation = mix(vec3(luminance), gradedTexture, 1.30);
-        vec3 amapOcean = mix(vec3(0.003, 0.22, 0.64), vec3(0.006, 0.40, 0.92), smoothstep(0.015, 0.38, luminance));
-        vec3 amapLand = pow(max(daySaturation, vec3(0.0)), vec3(0.82)) * vec3(1.12, 1.16, 0.96);
+        vec3 amapOcean = mix(gradedTexture, vec3(0.003, 0.22, 0.64), 0.10);
+        vec3 amapLand = pow(max(daySaturation, vec3(0.0)), vec3(0.82)) * vec3(1.06, 1.09, 0.94);
         // Reduce only the ocean's blue channel by 10%, keeping land and route colors unchanged.
-        vec3 amapDaySurface = mix(amapLand, amapOcean, oceanMask);
-        vec3 nightOcean = vec3(0.002, 0.055, 0.20) + amapOcean * 0.055;
+        amapLand = amapLand / (vec3(1.0) + max(amapLand - vec3(0.55), vec3(0.0)) * 0.16);
+        float oceanLuma = dot(amapOcean, vec3(0.2126, 0.7152, 0.0722));
+        float oceanMidtoneLift = mix(2.55 * pow(max(oceanLuma, 0.025), -0.12), 1.0, smoothstep(0.35, 0.75, oceanLuma));
+        vec3 dayOcean = amapOcean * vec3(1.0, 1.65, 1.05) * oceanMidtoneLift;
+        vec3 amapDaySurface = mix(amapLand, dayOcean, oceanMask);
+        vec3 nightOcean = amapOcean * 0.24;
         vec3 nightLand = mix(vec3(luminance), amapLand, 0.46) * vec3(0.10, 0.19, 0.31) + vec3(0.004, 0.010, 0.022);
         vec3 nightSurface = mix(nightLand, nightOcean, oceanMask);
         vec3 daySurface = amapDaySurface * mix(0.96, 1.12, max(lightAmount, 0.0));
