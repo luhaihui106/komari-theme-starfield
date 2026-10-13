@@ -69,7 +69,7 @@
 
         window.addEventListener('load', function () {
           navigator.serviceWorker
-            .register('/sw.js', { scope: '/', updateViaCache: 'none' })
+            .register('%BASE_URL%sw.js', { scope: '%BASE_URL%', updateViaCache: 'none' })
             .then(function (registration) {
               return registration.update()
             })

@@ -14,9 +14,10 @@ const VISIBLE_NORTH_LAT = 74
 const VISIBLE_SOUTH_LAT = -58
 const TEXTURE_FULL_HEIGHT = MAP_HEIGHT * 180 / (VISIBLE_NORTH_LAT - VISIBLE_SOUTH_LAT)
 const TEXTURE_SOURCE_Y = TEXTURE_FULL_HEIGHT * (90 - VISIBLE_NORTH_LAT) / 180
-const EARTH_DAY_TEXTURE = '/images/earth/earth-blue-marble.webp'
-const EARTH_BUMP_MAP = '/images/earth/earth-topology.png'
-const EARTH_SPECULAR_MAP = '/images/earth/earth-water.png'
+const ASSET_BASE = import.meta.env.BASE_URL
+const EARTH_DAY_TEXTURE = `${ASSET_BASE}images/earth/earth-blue-marble.webp`
+const EARTH_BUMP_MAP = `${ASSET_BASE}images/earth/earth-topology.png`
+const EARTH_SPECULAR_MAP = `${ASSET_BASE}images/earth/earth-water.png`
 
 interface MapPoint {
   x: number
@@ -114,7 +115,7 @@ const clusterMarkers = computed<ClusterMarker[]>(() => regionClusters.value.map(
               <circle :cx="marker.x" :cy="marker.y" r="3.8" class="city-dot" :class="marker.statusClass" />
               <image
                 v-if="marker.code"
-                :href="`/images/flags/${marker.code}.svg`"
+                :href="`${ASSET_BASE}images/flags/${marker.code}.svg`"
                 :x="marker.x - 13"
                 :y="marker.y - 34"
                 width="26"
@@ -145,7 +146,7 @@ const clusterMarkers = computed<ClusterMarker[]>(() => regionClusters.value.map(
         </div>
         <div v-for="marker in clusterMarkers" :key="marker.id" class="legend-item" :class="marker.statusClass">
           <span class="legend-index">{{ marker.index }}</span>
-          <img v-if="marker.code" :src="`/images/flags/${marker.code}.svg`" :alt="marker.code" class="legend-flag">
+          <img v-if="marker.code" :src="`${ASSET_BASE}images/flags/${marker.code}.svg`" :alt="marker.code" class="legend-flag">
           <span class="legend-copy">
             <span v-if="marker.label" class="legend-name">{{ marker.label }}</span>
             <span class="legend-meta">{{ marker.meta }}</span>
