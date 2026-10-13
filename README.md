@@ -12,7 +12,9 @@
 
 ## 安装与兼容
 
-本版本为访客前端主题，不包含后端或独立管理后台。源码支持 Komari 1.2.6 Metric Store 接口及旧 records 回退；Komari 1.5+ 的 /admin、/terminal 由后端内置前端提供。标准主题 ZIP 路径已在隔离环境验证；这不等于对全部后端版本或物理手机完成认证。高级工具、访客位置、审计等功能需要后端相应接口和权限，缺失时不可据此保证可用。
+本版本为官方标准 ZIP 格式的访客前端主题，不包含后端或独立管理后台，不是只能用于 Komari Slim。实际验证后端仅为未修改的官方 Komari 1.5.1（linux-arm64，官方发布二进制 SHA256：`21eca252151c3099a093c02130f6750ae6b860cf78cf8e4b50fc002c7007552f`）。已在隔离环境真实上传并应用 Starfield，验证 `/api/public`、`/api/nodes`、`/api/version`、主题设置写入/公开读取、内置 `/admin` 可达，以及桌面和 Chromium 模拟手机亮暗资源解码、默认星空 hash、国家级标签与离线节点详情；没有拦截或 mock 后端 API。测试使用虚构节点，关闭地球自动旋转后进行点击测试，未验证真实在线 agent 上报、物理手机或 Safari；不保证所有后端版本。
+
+源码包含 Komari 1.2.6 Metric Store 接口及旧 records 回退，但未对该旧版本做真实后端认证。`/admin`、`/terminal` 由官方后端内置前端提供，不由主题替换。高级工具、访客 IP 城市定位、审计和远程管理等能力需要对应后端接口、数据及权限，本次不将它们列为已验证；无定位数据时标签回退到国家代码，而不是凭空显示城市。核心主题可安装与高级功能可用性应分别判断。
 
 1. 从 [Releases](https://github.com/luhaihui106/komari-theme-starfield/releases) 下载 komari-theme-Starfield-build-*.zip，并核对 SHA256SUMS。
 2. 登录 Komari 后台，进入主题管理，上传 ZIP，然后应用 Starfield（星空）。
