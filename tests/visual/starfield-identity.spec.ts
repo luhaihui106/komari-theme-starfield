@@ -25,7 +25,7 @@ for (const [name, width, height] of [['desktop', 1440, 1000], ['mobile', 390, 84
       return { url, status: response.status, filter: style.filter, hash: Array.from(new Uint8Array(hash), b => b.toString(16).padStart(2, '0')).join('') }
     })
     expect(identity.status).toBe(200)
-    expect(identity.url).toContain(process.env.INSTALLED_ASSET_BASE || '/')
+    expect(new URL(identity.url).pathname).toBe(`${process.env.INSTALLED_ASSET_BASE || '/'}images/default-background-v2.webp`)
     expect(identity.hash).toBe((process.env.STARFIELD_HASH || 'e158d9a52526cf28664cbb4b2b2dd665212402d94f88cb5995a8bf0330fea561'))
     expect(identity.filter).toBe('none')
     await expect(page.locator('html')).toHaveJSProperty('scrollWidth', width)

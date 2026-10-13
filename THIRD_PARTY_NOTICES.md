@@ -7,7 +7,7 @@ GlassEmerald is derived code, not a license grant over all independent artwork. 
 - sanrokamlan-prog and towersip Glassmorphism: MIT, Copyright (c) 2025 Tony Liu (tonyliuzj, tony-liu.com).
 - Tokinx Emerald: MIT, Copyright (c) 2026 Tokinx.
 
-Original full MIT notices were retrieved from pinned upstream commits in `docs/asset-evidence/logos-docs.json` and are bundled under `docs/asset-evidence/licenses/`. The project `LICENSE` does not replace those copyright lines.
+Original full MIT notices are bundled under `docs/asset-evidence/licenses/` for each named upstream. The project `LICENSE` does not replace those copyright lines.
 
 ## Icon subset (unchanged)
 
@@ -29,18 +29,19 @@ All 258 unchanged SVGs are exact Twitter Twemoji v14.0.2 graphics, commit `7a3da
 
 Natural Earth `ne_110m_admin_0_countries`, repository v5.1.2 / layer version 5.1.1, public domain. Source coordinates and ring order match all 177 countries. Conversion preserves feature order, uses ISO_A2_EH and flattens MultiPolygon one level; no rounding or coordinate transformation. Attribution: Made with Natural Earth. Public-domain declaration is included.
 
-Blue Marble/night/topology/water images exactly match three-globe commit `a868dbf5636b8db153d92662f00560415bb9be0a`. Three-globe MIT is captured only as repository licensing evidence, not permission from an unidentified original image producer. Exact NASA product attribution is still unverified. The WebP can be reproduced exactly from the JPG using Pillow 12.3.0/libwebp 1.6.0, quality=82, method=6; encoding reproduction does not establish rights.
+NASA Blue Marble 2002 day texture is the official land_shallow_topo_2048.jpg product, converted to lossless WebP without resize or color changes; exact hashes and complete credits are in NASA_TEXTURE.md. NASA Black Marble 2016 night texture is the official unchanged 3600×1800 JPEG credited to NASA Earth Observatory/Joshua Stevens with Suomi NPP VIIRS data from Miguel Román. Exact source URL, hash and media-policy link are in CANDIDATE_NOTICES.md. Neither image is claimed as original project artwork or licensed through three-globe MIT.
+
+Water mask derives from pinned public-domain Natural Earth geometry; the constant neutral bump does not claim real elevation. Recipes remain in scripts/generate-candidate-assets.py. NASA imagery is informational visualization, not a NASA trademark/endorsement grant.
 
 ## Logos and remaining artwork
 
-Four specialist source findings among 33 logos:
+Current standalone identifiers:
 
 - TablerHelp: matches `tabler:help` geometry, MIT (full notice bundled); SVG wrapper/style differs.
-- AlibabaCloud: exact LobeHub bytes, MIT, Copyright (c) 2023 LobeHub; trademark permission is separate.
-- OpenWrt: exact Simple Icons bytes, CC0; trademark conditions separate.
+
 - Gentoo: exact Commons image, Lennart Andre Rolland, CC BY-SA 2.5. Source https://commons.wikimedia.org/wiki/File:Gentoo_Linux_logo_matte.svg ; license https://creativecommons.org/licenses/by-sa/2.5/ . No image modification. Retain attribution and applicable share-alike terms; Gentoo identification/trademark policy needs independent review.
 
-Historical group findings below are retained for audit comparison, not current-candidate claims. See CANDIDATE_NOTICES.md and candidate-transitions.json for current replacements: official NASA day/night, Natural Earth mask, neutral bump, approved favicon, accepted upstream default background and freshly captured mock screenshots. Uncertain logos and legacy captures are absent. Original private history and Releases remain blocked separately.
+All other standalone system/vendor artwork is replaced by an original generic terminal/monitor identifier and textual OS names. Default background is original procedural starfield variant B with gamma 0.52/Color 1.12; favicon is original geometric Earth artwork, both MIT. Generation records, exact approved hashes and full original MIT notices are retained. Documentation screenshots and visual baselines use fixed synthetic data. Historical acquisition reports and legacy images are not distributed.
 
 ## Libraries and trademarks
 
