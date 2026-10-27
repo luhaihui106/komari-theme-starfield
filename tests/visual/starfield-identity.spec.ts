@@ -25,8 +25,8 @@ for (const [name, width, height] of [['desktop', 1440, 1000], ['mobile', 390, 84
       return { url, status: response.status, filter: style.filter, hash: Array.from(new Uint8Array(hash), b => b.toString(16).padStart(2, '0')).join('') }
     })
     expect(identity.status).toBe(200)
-    expect(new URL(identity.url).pathname).toBe(`${process.env.INSTALLED_ASSET_BASE || '/'}images/pixabay-milky-way-2341762-df1a8e6a.webp`)
-    expect(identity.hash).toBe((process.env.STARFIELD_HASH || 'df1a8e6af59f12870d9735762693ce083c7913df3cc44dd3572a84b3f022b40d'))
+    expect(new URL(identity.url).pathname).toBe(`${process.env.INSTALLED_ASSET_BASE || '/'}images/default-milky-way-2560-q88-v1.webp`)
+    expect(identity.hash).toBe((process.env.STARFIELD_HASH || '105bac5828ba20232495a5636d582eac9a7eae393b44ddb5272269517e9d507c'))
     expect(identity.filter).toBe('none')
     await expect(page.locator('html')).toHaveJSProperty('scrollWidth', width)
     await page.screenshot({ path: `../evidence/${process.env.STARFIELD_VARIANT}-${name}-full.png`, fullPage: true })
