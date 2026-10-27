@@ -42,7 +42,7 @@
 
 ## 效果预览
 
-以下使用虚构演示数据，不是真实监控节点。手机图为 Chromium 视口模拟，并非实机 Safari 测试。
+以下为 v0.1.12 应用实际渲染，使用虚构演示节点、指标与城市定位数据，不是真实监控实况。展示 Emerald 地球、城市短标签和三网卡片；手机图为 Chromium 视口模拟，并非实机 Safari 测试。
 
 ![桌面演示](docs/screenshots/desktop.png)
 ![手机演示](docs/screenshots/mobile.png)
