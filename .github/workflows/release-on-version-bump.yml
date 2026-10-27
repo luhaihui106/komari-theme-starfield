@@ -74,6 +74,8 @@ jobs:
           if-no-files-found: error
 
   publish:
+    # Publication is performed manually after exact archive verification.
+    if: false
     needs: build
     runs-on: ubuntu-latest
     timeout-minutes: 10

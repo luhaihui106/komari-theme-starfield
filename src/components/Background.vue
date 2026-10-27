@@ -46,7 +46,7 @@ const showMediaBackground = computed(() =>
 )
 
 const showDefaultBackground = computed(() =>
-  !hasCustomBackground.value || !showMediaBackground.value || hasError.value,
+  appStore.publicSettings !== undefined && appStore.publicSettings !== null && (!hasCustomBackground.value || hasError.value),
 )
 
 const showLoadingBackground = computed(() =>
@@ -180,7 +180,7 @@ onUnmounted(() => {
   position: absolute;
   inset: 0;
   overflow: hidden;
-  background-image: url('/images/pixabay-milky-way-2341762-df1a8e6a.webp');
+  background-image: url('/images/default-milky-way-2560-q88-v1.webp');
   background-position: center bottom;
   background-repeat: no-repeat;
   background-size: cover;

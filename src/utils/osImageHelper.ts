@@ -212,9 +212,44 @@ function findOSConfig(osString: string): OSConfig {
  * @param osString - 操作系统相关的字符串
  * @returns 匹配的操作系统图像路径，如果没有匹配则返回默认图像
  */
+const reviewedOSImages: Record<string, string> = {
+  'AlmaLinux': 'images/logo/si-almalinux.svg',
+  'Alpine Linux': 'images/logo/si-alpinelinux.svg',
+  'Armbian': 'images/logo/label-armbian.svg',
+  'CentOS': 'images/logo/si-centos.svg',
+  'Debian': 'images/logo/si-debian.svg',
+  'FreeBSD': 'images/logo/si-freebsd.svg',
+  'Ubuntu': 'images/logo/si-ubuntu.svg',
+  'Windows': 'images/logo/si-windows.svg',
+  'Arch Linux': 'images/logo/si-archlinux.svg',
+  'Kali Linux': 'images/logo/si-kalilinux.svg',
+  'iStoreOS': 'images/logo/label-istoreos.svg',
+  'OpenWrt': 'images/logo/si-openwrt.svg',
+  'ImmortalWrt': 'images/logo/si-openwrt.svg',
+  'NixOS': 'images/logo/si-nixos.svg',
+  'Rocky Linux': 'images/logo/si-rockylinux.svg',
+  'Fedora': 'images/logo/si-fedora.svg',
+  'openSUSE': 'images/logo/si-opensuse.svg',
+  'Gentoo': 'images/logo/si-gentoo.svg',
+  'Red Hat': 'images/logo/si-redhat.svg',
+  'Linux Mint': 'images/logo/si-linuxmint.svg',
+  'Manjaro': 'images/logo/si-manjaro.svg',
+  'Synology DSM': 'images/logo/si-synology.svg',
+  'fnOS': 'images/logo/label-fnos.svg',
+  'Proxmox VE': 'images/logo/si-proxmox.svg',
+  'macOS': 'images/logo/si-macos.svg',
+  'QTS': 'images/logo/si-qnap.svg',
+  'Astra Linux': 'images/logo/label-astra-linux.svg',
+  'Orange Pi': 'images/logo/label-orange-pi.svg',
+  'Huawei': 'images/logo/si-huawei.svg',
+  'Aliyun': 'images/logo/si-alibabacloud.svg',
+  'OpenCloudOS': 'images/logo/label-opencloudos.svg',
+  'Unraid': 'images/logo/si-unraid.svg',
+}
+
 export function getOSImage(osString: string): string {
   const config = findOSConfig(osString)
-  return `${import.meta.env.BASE_URL}${config.name === 'Gentoo' ? 'images/logo/os-gentoo.svg' : 'images/logo/generic-system.svg'}`
+  return `${import.meta.env.BASE_URL}${reviewedOSImages[config.name] || 'images/logo/generic-system.svg'}`
 }
 
 /**

@@ -9,6 +9,7 @@ const COMMON_CITY_CODES: Record<string, string> = {
   'JP:osaka': 'OSA',
   'KR:chuncheon': 'CWN',
   'US:los angeles': 'LAX',
+  'US:champaign': 'CMI',
   'US:san jose': 'SJC',
 }
 

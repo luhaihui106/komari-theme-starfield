@@ -179,7 +179,7 @@ function komariThemeZip(): Plugin {
 
         appendFile(themeJsonPath, 'komari-theme.json')
         // Attribution must accompany binary distributions, not just source.
-        for (const name of ['LICENSE', 'THIRD_PARTY_NOTICES.md', 'ASSET_PROVENANCE.md', 'CANDIDATE_NOTICES.md', 'NASA_TEXTURE.md'])
+        for (const name of ['LICENSE', 'THIRD_PARTY_NOTICES.md', 'ASSET_PROVENANCE.md', 'CANDIDATE_NOTICES.md', 'NASA_TEXTURE.md', 'CHANGELOG.md', 'docs/maintenance-v0.1.12.md'])
           appendFile(join(__dirname, name), name)
         for (const entry of listArchiveFiles(join(__dirname, 'docs/asset-evidence'), 'docs/asset-evidence'))
           appendFile(entry.path, entry.name)

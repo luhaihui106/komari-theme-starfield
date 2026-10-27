@@ -2,6 +2,12 @@
 
 Starfield is derived code, not a license grant over all independent artwork. Preserve this notice and `docs/asset-evidence/licenses/` in source and binary distributions.
 
+## Standalone OS marks added in v0.1.12
+
+The local `si-*.svg` system marks reuse Simple Icons 11.15.0 (CC0-1.0). Original SVG paths are unchanged; an explicit readable fill was added. Exact tarball SHA-512, source URLs and per-file mapping are in `public/licenses/os-icons-provenance.json` (installed as `dist/licenses/`). Full license: `public/licenses/simple-icons-11.15.0-CC0.txt`. OpenWrt and ImmortalWrt share the related OpenWrt mark. Six `label-*.svg` files are original CC0 text identifiers, not official logos. Brand marks remain subject to their owners' trademark policies; CC0 grants no trademark rights.
+
+The compressed default Milky Way image is a lossy 2560×1556 derivative of the already attributed EvgeniT CC0 artwork below; composition is retained and the original file remains packaged.
+
 ## Theme code
 
 - sanrokamlan-prog and towersip Glassmorphism: MIT, Copyright (c) 2025 Tony Liu (tonyliuzj, tony-liu.com).
